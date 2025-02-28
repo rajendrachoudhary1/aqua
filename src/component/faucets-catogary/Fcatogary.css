@@ -1,0 +1,8 @@
+.f-info{
+    text-align: center;
+    margin-top: 30px;
+    background: linear-gradient(to right, rgb(0, 136, 255), rgb(209, 244, 250), rgb(0, 136, 255));
+}
+.f-info-p{
+    font-size: 23px;
+}

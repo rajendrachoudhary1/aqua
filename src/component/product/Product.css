@@ -1,7 +1,7 @@
 .container h1{
     display: inline-block;
     margin: 20px;
-    background: rgb(41, 1, 144);
+    background: red;
     padding: 20px;
     color: white;
 }
