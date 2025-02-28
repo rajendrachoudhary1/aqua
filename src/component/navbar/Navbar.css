@@ -54,7 +54,7 @@ nav ul li{
     .bars{
         display: block;
         margin-right: 10px;
-        width: 25px;
+        font-size: 25px;
     }
     
 }

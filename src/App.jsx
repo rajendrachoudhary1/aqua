@@ -1,6 +1,5 @@
 import Navbar from './component/navbar/Navbar'
-import Header from './component/header/Header'
-import './App.css'
+import Product from './component/product/Product'
 import Slider from './component/slider/Slider'
  
 function App() {
@@ -10,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Slider/>
+      <Product/>
     
     </>
   )
