@@ -1,14 +1,14 @@
 .container h1{
     display: inline-block;
     margin: 20px;
-    background: red;
+    background: rgb(41, 1, 144);
     padding: 20px;
     color: white;
 }
 .faucets{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    /* padding: 20px; */
 }
 .faucets-left{
   margin-right: 20px;
@@ -36,7 +36,20 @@
     .faucets{
         display: flex;
         flex-wrap: wrap;
-       
+    }
+    .container h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 20px;   
+    }
+    .faucets-left h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .faucets-left p{
+        font-size: 14px;
+        margin-bottom: 10px;
     }
     
 }

@@ -9,8 +9,7 @@ const Product = () => {
         <div className='faucets'>
             <div className='faucets-left'>
                 <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, iste.</h4>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda necessitatibus voluptas nam quod velit sed enim voluptatibus vero neque?
-                    </p> 
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda necessitatibus voluptas nam quod velit sed enim voluptatibus vero neque?</p> 
 
             </div>
             <div className='faucets-right'>
