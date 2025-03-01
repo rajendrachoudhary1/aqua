@@ -37,7 +37,7 @@ nav ul li{
     cursor: pointer;
 }
 .dark-nav{
-    background-color: rgb(5, 109, 229);
+    background-color: rgb(123, 127, 255);
     transition: 0.5s;  
 } 
 @media (max-width: 1000px) {
