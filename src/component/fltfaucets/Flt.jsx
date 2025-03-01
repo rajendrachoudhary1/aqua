@@ -1,8 +1,8 @@
 import React from 'react'
-import FLT_IMG1 from '../../assets/FLT/FLT1101.jpg'
-import FLT_IMG2 from '../../assets/FLT/FLT-1102.jpg'
-import FLT_IMG3 from '../../assets/FLT/FLT-1103.jpg'
-import FLT_IMG4 from '../../assets/FLT/FLT-1104.jpg'
+import FLT_IMG1 from '../../assets/flt.jpg'
+import FLT_IMG2 from '../../assets/flt2.jpg'
+import FLT_IMG3 from '../../assets/flt3.jpg'
+import FLT_IMG4 from '../../assets/flt4.jpg'
 import './Flt.css'
 
 
@@ -14,29 +14,41 @@ const Flt = () => {
     <div className='flt-main'>
          
          <div className='flt'>
-             <img src={FLT_IMG1} alt="" />
-             <div className='underline'> </div>
-             <p>FLT-1101</p>
-             <p>Bib Cock with Flange</p>
+            <img src={FLT_IMG1} alt="" />
+            <div className='flt-info'>
+              <p>FLT-SERIES</p>
+              <div className='underline'></div>
+              <button>Explore Now</button>
+            </div>  
          </div>
+
          <div className='flt'>
-             <img src={FLT_IMG2} alt="" />
-             <div className='underline'> </div>
-             <p>FLT-1102</p>
-             <p>Pillar Cock</p>
+         <img src={FLT_IMG2} alt="" />
+            <div className='flt-info'>
+              <p>SLIKA -SERIES</p>
+              <div className='underline'></div>
+              <button>Explore Now</button>
+            </div>   
          </div>
+         
          <div className='flt'>
-             <img src={FLT_IMG3} alt="" />
-             <div className='underline'> </div>
-             <p>FLT-1103</p>
-             <p>Pillar Cock High Neck</p>
+         <img src={FLT_IMG3} alt="" />
+            <div className='flt-info'>
+              <p>JIVA-SERIES</p>
+              <div className='underline'></div>
+              <button>Explore Now</button>
+            </div>   
          </div>
+         
          <div className='flt'>
-             <img src={FLT_IMG4} alt="" />
-             <div className='underline'> </div>
-             <p>FLT-1104</p>
-             <p> Angle Cock with Flange</p>
+         <img src={FLT_IMG4} alt="" />
+            <div className='flt-info'>
+              <p>DUCK-SERIES</p>
+              <div className='underline'></div>
+              <button>Explore Now</button>
+            </div>   
          </div>
+         
        
      </div>
     </>
