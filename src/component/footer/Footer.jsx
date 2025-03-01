@@ -15,15 +15,25 @@ const Footer = () => {
             <div className='icon'><FontAwesomeIcon icon={faXTwitter} /></div> 
             </div>
         </div>
+        <div className='footer-middle'>
+            <h3>Pages</h3>
+            <div className="underline1"></div>
+            <div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Terms & Condition</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+
+        </div>
 
         <div className='footer-right'>
-            <div className='footer-right-a'>
-                <a href="">Home</a>
-                <a href="">Contact us</a>
-            </div>
+             <h3>Contact</h3>
+             <div className="underline1"></div>
             <div className='footer-right-address'>
-                <p>Address</p>
-                <div className="underline"></div>
                 <p>SHREE RAM DISTRIBUTOR</p>
                 <p>Opp. MPE FINANCE PVT. LTD.,Ganesh Marge</p>
                 <p>Nr. Mahatma Gandhi Circle,Sumerpur,Pali-306902</p>

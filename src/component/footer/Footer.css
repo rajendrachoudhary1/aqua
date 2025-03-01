@@ -2,10 +2,11 @@
     margin-top: 30px;
     /* height: 34vh; */
     width: 100%;
-    background: rgb(200, 200, 250);
+    background: rgb(33, 33, 33);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
@@ -20,26 +21,38 @@
 .icon{
      
     display: inline-block;
-    border: 2px solid rgba(1, 1, 53, 0.765);;
+    border: 2px solid rgba(226, 226, 233, 0.765);;
     border-radius: 80px;
     padding: 10px 13px;
     font-size: 25px;
+    color: rgb(203, 203, 203);
+}
+
+.footer-middle h3{
+  font-size: 24px;
+  color: white;
+}
+.footer-middle a,ul{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color:rgb(203, 203, 203);
+    font-weight: 300;
 }
 .footer-right{
     margin: 20px;
      
 }
-.footer-right-a a{
-    text-decoration: none;
-    margin-right: 30px;
-    font-size: 20px;
-    color: white;
-}
+ 
 .footer-right-address{
     margin-top: 30px;
 }
+.footer-right h3{
+    color: whitesmoke;
+}
 .footer-right-address p{
     font-size: 20px;
+    color: rgb(203, 203, 203);
 }
 
 @media (max-width: 700px) {

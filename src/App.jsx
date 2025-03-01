@@ -4,6 +4,7 @@ import Footer from './component/footer/Footer'
 import Navbar from './component/navbar/Navbar'
 import Product from './component/product/Product'
 import Slider from './component/slider/Slider'
+import Tapcard from './component/tapcard/Tapcard'
  
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <Product/>
       <Fcatogary/>
        <Flt/>
+       <Tapcard/>
        <Footer/>
     
     </>

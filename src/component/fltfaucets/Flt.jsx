@@ -31,7 +31,7 @@ const Flt = () => {
             </div>   
          </div>
          
-         <div className='flt'>
+         {/* <div className='flt'>
          <img src={FLT_IMG3} alt="" />
             <div className='flt-info'>
               <p>JIVA-SERIES</p>
@@ -48,7 +48,7 @@ const Flt = () => {
               <button>Explore Now</button>
             </div>   
          </div>
-         
+          */}
        
      </div>
     </>
