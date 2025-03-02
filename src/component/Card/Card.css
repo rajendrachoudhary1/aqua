@@ -1,5 +1,5 @@
 .tcard{
-    /* width: 100%; */
+    width: 500px;
     /* border: 1px solid gray; */
     background: linear-gradient(white,rgb(212, 211, 211),rgb(237, 236, 236));
     padding: 10px;
@@ -16,7 +16,7 @@
     margin-bottom: 5px; /* Adjust spacing */
 }
 .tcard img {
-    /* width: 100%; */
+    width: 100%;
     transition: transform 0.5s ease-in-out;
   }
   

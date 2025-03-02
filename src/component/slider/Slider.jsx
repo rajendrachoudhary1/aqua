@@ -2,7 +2,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Header from "../header/Header";
-import hero from '../../assets/s1.jpg'
+import hero from '../../assets/main3.jpg'
 import hero1 from '../../assets/s2.jpg'
 import hero2 from '../../assets/s3.jpg'
 import hero3 from '../../assets/s4.jpg'
@@ -56,8 +56,9 @@ const Slider = (props) => {
       transitionDuration={500}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet","mobile"]}
-    //   dotListClass="custom-dot-list-style"
+      dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
+      arrows ={false}
     >
       {featureinfo.map((feature, index) => (
         <div key={index}>

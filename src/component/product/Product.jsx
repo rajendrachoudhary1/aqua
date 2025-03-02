@@ -5,10 +5,12 @@ import './Product.css'
 const Product = () => {
   return (
     <div className='container'>
-        <h1>Faucets</h1>
+        {/* <h1>Faucets</h1> */}
         <div className='faucets'>
             <div className='faucets-left'>
-                <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, iste.</h4>
+                <h4> Brass is an alloy of copper and zinc that is popularly used for 
+                     manufacturing faucets because of its property to be 
+                     resistant to corrosion and hard-water calcification.</h4>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium assumenda necessitatibus voluptas nam quod velit sed enim voluptatibus vero neque?</p> 
 
             </div>

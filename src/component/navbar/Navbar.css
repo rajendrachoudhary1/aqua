@@ -37,7 +37,8 @@ nav ul li{
     cursor: pointer;
 }
 .dark-nav{
-    background-color: rgb(33, 33, 33);
+    background: hsl(0, 0%, 93%);
+    box-shadow: 1px 1px 20px gray;
     transition: 0.5s;  
 } 
 @media (max-width: 1000px) {
@@ -55,6 +56,7 @@ nav ul li{
         display: block;
         margin-right: 10px;
         font-size: 25px;
+        color:  rgb(19, 19, 19);;
     }
     
 }

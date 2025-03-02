@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
     
  }
  .container{
@@ -16,3 +17,34 @@
    }
   
  }
+ .carousel-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Custom dot container */
+.custom-dot-list-style {
+  position: absolute;
+  bottom: 10px; /* Adjust distance from the bottom */
+  display: flex;
+  justify-content: center;
+  gap: 6px; /* Adjust spacing between lines */
+}
+
+/* Convert dots into lines */
+.custom-dot-list-style li {
+  width: 20px;  /* Line width */
+  height: 4px;  /* Line height */
+  background-color: #ccc; /* Default inactive line color */
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* Active line */
+.custom-dot-list-style li.react-multi-carousel-dot--active {
+  background-color: #000; /* Active line color */
+  width: 30px; /* Make active line longer */
+}

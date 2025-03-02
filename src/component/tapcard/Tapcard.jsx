@@ -1,7 +1,7 @@
 import React from 'react'
 import './Tapcard.css'
 import Card from '../Card/Card'
-import i1 from '../../assets/FLT/f.png'
+import i1 from '../../assets/t1.png'
 import i2 from '../../assets/FLT/f2.png'
 import i3 from '../../assets/FLT/f3.png'
 import i4 from '../../assets/FLT/FLT-1107.jpg'
@@ -48,7 +48,7 @@ const Tapcard = (props) => {
           resistant to corrosion and hard-water calcification.</p>
         <div className='tap'> 
             <Card img={i1} title={tapinfo[0].title} name={tapinfo[0].name}/>
-            {/* <Card img={i2} title={tapinfo[1].title} name={tapinfo[1].name}/> */}
+            <Card img={i2} title={tapinfo[1].title} name={tapinfo[1].name}/>
             <Card img={i3} title={tapinfo[2].title} name={tapinfo[2].name}/>
             
         </div>

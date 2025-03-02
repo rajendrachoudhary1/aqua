@@ -8,11 +8,12 @@
 .faucets{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
     /* padding: 20px; */
 }
 .faucets-left{
   margin-right: 20px;
-  max-width: 500px;
+  max-width: 550px;
 }
 .faucets-left h4{
     color: rgba(4, 113, 113, 0.599);
@@ -22,6 +23,7 @@
 .faucets-left p{
     font-size: 20px;
     margin-bottom: 20px;
+    font-style: italic;
 }
 .faucets-right{
     width: 400px;
