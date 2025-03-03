@@ -1,5 +1,5 @@
 import React from 'react'
-import './Psidebar.css'
+import './PSidebar.css'
 const Psidebar = () => {
   return (
     <div className='sidebar'>
