@@ -1,0 +1,25 @@
+.shower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.shower{
+     
+     /* width: 400px; */
+
+}
+.shower img{
+    width: 100%;
+}
+.shower-text{
+ max-width: 600px;
+ padding: 20px;
+}
+.shower-text h3{
+    font-size: 50px;
+    color: rgb(4, 89, 95);
+}
+.shower-text h3 span{
+    color: rgb(1, 57, 83);
+}

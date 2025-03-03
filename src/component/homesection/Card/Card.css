@@ -1,0 +1,34 @@
+.tcard{
+    width: 500px; 
+    background: white;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px; 
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 10px;
+}
+.underline1 {
+    width: 100%;
+    height: 1px;  
+    background: #EEEEEE;
+    margin-top: 5px;  
+    margin-bottom: 5px;  
+}
+.tcard img {
+    width: 100%;
+    /* transition: transform 0.5s ease-in-out; */
+  }
+  
+  .tcard img:hover {
+    /* transform: scale(1.2);   */
+  }
+  @media  (max-width:1000px) {
+  .tcard{
+    margin: 10px;
+  }
+  .tcard img{
+    width: 100px;
+  }
+    
+}

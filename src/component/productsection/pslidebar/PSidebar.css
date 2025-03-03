@@ -1,0 +1,21 @@
+.sidebar{
+    display: inline-flex; 
+    background: #f9f9f9;
+    padding: 20px;
+}
+.underline-tap{
+    width: 100%;
+    height: 2px;  
+    background: #ffffff; 
+    margin-top: 5px;  
+    margin-bottom: 5px; 
+}
+.sidemenu h3 {
+    margin: 6px auto;
+    opacity: 0.8;
+}
+.sidemenu ul li{
+    color: rgb(76, 76, 76);
+    font-size: 16px;
+    line-height: 1.4;
+}

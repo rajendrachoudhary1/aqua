@@ -1,0 +1,30 @@
+.tapcard{
+    background: #EEEEEE;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.tapcard h3{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.tapcard p{
+    font-style: italic;
+}
+.tap{
+    display: flex;
+    justify-content: center;
+
+}
+@media  (max-width:1000px) {
+    .tapcard{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+}
