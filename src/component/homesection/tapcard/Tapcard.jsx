@@ -21,7 +21,7 @@ const Tapcard = (props) => {
         <div className='tap'> 
             <Card img={i1} title={tapinfo[0].title} name={tapinfo[0].name}/>
             <Card img={i2} title={tapinfo[1].title} name={tapinfo[1].name}/>
-            <Card img={i3} title={tapinfo[2].title} name={tapinfo[2].name}/>
+           <div className='lastcard'><Card img={i3} title={tapinfo[2].title} name={tapinfo[2].name}/></div>  
         </div>
     </div>
     </>

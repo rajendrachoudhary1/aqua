@@ -23,3 +23,49 @@
 .shower-text h3 span{
     color: rgb(1, 57, 83);
 }
+@media (max-width: 1025px) {
+    .shower-text{
+        max-width: 500px;
+        padding: 20px;
+       }
+       .shower-text h3{
+        font-size: 40px;
+    }
+    
+}
+@media (max-width: 900px) {
+    .shower-text{
+        max-width: 400px;
+        padding: 20px;
+       }
+       .shower-text h3{
+        font-size: 30px;
+    }
+    .shower-text p{
+        font-style: italic;
+        font-size: 12px;
+    }
+   
+    
+}
+@media (max-width: 700px) {
+    .shower-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .shower-text{
+        max-width: 600px;
+        padding: 20px;
+        text-align: center;
+       }
+       .shower-text h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .shower-text p{
+        font-style: italic;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    
+}

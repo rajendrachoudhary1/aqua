@@ -2,10 +2,12 @@
     background: #EEEEEE;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     padding: 10px;
     padding-right: 10%;
     padding-left: 10%;
+   padding-bottom: 30px;
 }
 
 .tapcard h3{
@@ -26,5 +28,11 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+    
+}
+@media  (max-width:500px) {
+.lastcard{
+    display: none;
+}
     
 }
