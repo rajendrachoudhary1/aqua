@@ -15,13 +15,13 @@ const Tapcard = (props) => {
     <> 
      <div className='tapcard'>
         <h3>BEST SELLER</h3>
-        <p>Brass is an alloy of copper and zinc that is popularly used for 
+        <p className='tap-text'>Brass is an alloy of copper and zinc that is popularly used for 
           manufacturing faucets because of its property to be 
           resistant to corrosion and hard-water calcification.</p>
         <div className='tap'> 
-            <Card img={i1} title={tapinfo[0].title} name={tapinfo[0].name}/>
-            <Card img={i2} title={tapinfo[1].title} name={tapinfo[1].name}/>
-           <div className='lastcard'><Card img={i3} title={tapinfo[2].title} name={tapinfo[2].name}/></div>  
+            <div className='taps'><Card img={i1} title={tapinfo[0].title} name={tapinfo[0].name}/></div> 
+            <div className='taps'><Card img={i2} title={tapinfo[1].title} name={tapinfo[1].name}/></div> 
+           <div className=' taps lastcard'><Card img={i3} title={tapinfo[2].title} name={tapinfo[2].name}/></div>  
         </div>
     </div>
     </>

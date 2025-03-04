@@ -16,7 +16,7 @@ const Flt = () => {
             <div className='flt-info'>
               <p>FAUCETS</p>
               <div className='underline'></div>
-             <Link to ='/product'><button>Explore Now</button></Link>  
+             <Link to ='/Faucets'><button>Explore Now</button></Link>  
             </div>  
          </div>
 

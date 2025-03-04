@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import logo from './assets/logo-f.png'
 import './App.css'
 import { useState,useEffect } from 'react';
+import Showerpage from './pages/Showerpage';
 
 function App() {
     const [sticky, setSticky] = useState(false)
@@ -24,12 +25,10 @@ function App() {
              <div className='nav-logo'>
              <img src={logo} alt="" />
              </div>
-            
-             
                <ul>
                <li><Link to="/">Home</Link></li>
-               <li><Link to="/product">Product</Link></li>
-               <li><Link to="/Categories">Categories</Link></li>
+               <li><Link to="/Faucets">Faucets</Link></li>
+               <li><Link to="/Shower">Sanitaryware</Link></li>
                <li><Link to="/Accessories">Accessories</Link></li>
                <li><Link to="/Contact">Contact</Link></li> 
                </ul>
@@ -39,8 +38,8 @@ function App() {
       {/* Route Definitions */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="/Product" element={<Productpage />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/Faucets" element={<Productpage />} />
+        <Route path="/Shower" element={<Showerpage />} />
       </Routes>
     </div>
   </Router>

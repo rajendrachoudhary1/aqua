@@ -1,0 +1,16 @@
+.shower-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    width: 100%;
+     
+}
+.showercard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; /* Adjust this as needed */
+    max-width: 1200px; /* Prevents it from stretching too much */
+}

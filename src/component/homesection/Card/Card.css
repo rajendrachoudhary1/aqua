@@ -1,10 +1,8 @@
 .tcard{
-    width: 500px; 
+    width: 100%; 
+    height: 100%;
     background: white;
     padding: 10px;
-    align-items: center;
-    text-align: center;
-    margin: 20px; 
     border: 1px solid rgb(212, 211, 211);
     border-radius: 10px;
 }
@@ -19,16 +17,15 @@
     width: 100%;
     /* transition: transform 0.5s ease-in-out; */
   }
-  
-  .tcard img:hover {
-    /* transform: scale(1.2);   */
-  }
-  @media  (max-width:1000px) {
-  .tcard{
-    margin: 10px;
+  @media  (max-width: 500px) {
+    .tcard{
+      border-radius: 4px;
+    }
+  .tcard p{
+    font-size: 10px;
   }
   .tcard img{
-    width: 100px;
+    /* width: 100px; */
   }
     
 }

@@ -16,12 +16,26 @@
  max-width: 600px;
  padding: 20px;
 }
+.shower-text p{
+    line-height: 30px;
+}
 .shower-text h3{
     font-size: 50px;
     color: rgb(4, 89, 95);
 }
 .shower-text h3 span{
     color: rgb(1, 57, 83);
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.second_img img{
+    width: 100%;
+}
+.second-text{
+    padding-left: 60px;
+    
 }
 @media (max-width: 1025px) {
     .shower-text{
@@ -42,7 +56,7 @@
         font-size: 30px;
     }
     .shower-text p{
-        font-style: italic;
+      
         font-size: 12px;
     }
    
@@ -62,10 +76,14 @@
         font-size: 30px;
         margin-bottom: 10px;
     }
+   
     .shower-text p{
-        font-style: italic;
+      
         font-size: 12px;
-        line-height: 15px;
+        line-height: 20px;
+    }
+    .second_img img{
+        width: 100%;
     }
     
 }

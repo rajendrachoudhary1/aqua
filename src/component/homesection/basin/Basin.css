@@ -43,3 +43,22 @@
     border-radius: 3px;
     border: 1px solid gray;
   }
+  @media (max-width:500px) {
+    .basin {
+      position: relative;
+      display: inline-block;
+      height: 40vh;
+      width: 100%;
+    }
+    .basin-title{ 
+      top: 20%;
+      left: 10px;
+      padding: 5px;
+    }
+    .basin-title h1{
+       font-size: 16px;
+    }
+    .basin-title p{
+      font-size: 14px;
+    }
+  }

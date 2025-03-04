@@ -15,13 +15,20 @@
     padding-bottom: 40px;
     font-size: 20px;
 }
-.tapcard p{
+.tap-text{
     font-style: italic;
 }
 .tap{
-    display: flex;
+     display: flex; 
     justify-content: center;
-
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.taps{
+    width: 300px;
+    /* border: 1px solid black; */
+     
 }
 @media  (max-width:1000px) {
     .tapcard{
@@ -31,8 +38,21 @@
     
 }
 @media  (max-width:500px) {
+    .tapcard{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 .lastcard{
     display: none;
+}
+.tapcard h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.tap-text{
+    font-size: 12px;
+    line-height: 18px;
 }
     
 }
