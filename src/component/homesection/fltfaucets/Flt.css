@@ -15,9 +15,10 @@
 .flt,.flt-second{
      flex-basis: 50%;
     height: 400px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     position: relative; 
     overflow: hidden;  
+    /* box-shadow: 1px 1px 12px ; */
 }
  
 .flt img{
@@ -53,12 +54,12 @@
 .flt-info button{
     font-size: 20px;
     padding: 5px 20px;
-    color: rgb(221, 220, 224);
-    background: rgba(1, 1, 53, 0.765);;
+    color: rgb(37, 37, 37);
+    /* background: rgba(2, 50, 207, 0.819); */
     outline: none;
     border: none;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 20px;
     
 }
  
@@ -69,11 +70,14 @@
  
 @media (max-width: 700px) {
     .flt-main{
+        /* width: 100%; */
         display: flex;
         flex-direction: column;
+        /* margin: 20px; */
     }
-   .flt{
-    height: 400px; 
+    .flt,.flt-second{
+        margin: 20px;
+       box-shadow: 1px 1px 12px ;
    }
    .flt img{
     width: 100%;
@@ -81,5 +85,8 @@
 }
 .flt p{
     font-size: 12px;
+}
+.flt-info button{
+    font-size: 16px;
 }
 }

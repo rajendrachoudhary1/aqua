@@ -39,7 +39,7 @@ const Slider = (props) => {
     <Carousel
       swipeable={true}
       draggable={true}
-      showDots={true}
+      showDots={false}
       responsive={responsive}
       ssr={true}  
       infinite={true}
@@ -50,7 +50,7 @@ const Slider = (props) => {
       transitionDuration={500}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet","mobile"]}
-      dotListClass="custom-dot-list-style" 
+      // dotListClass="custom-dot-list-style" 
       itemClass="carousel-item-padding-40-px"
       arrows={false}  
     >

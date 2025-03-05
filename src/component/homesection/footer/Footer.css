@@ -17,14 +17,16 @@
   margin: 20px;
   display: flex;
   gap: 20px;
+ 
 }
 .icon {
   display: inline-block;
-  border: 2px solid rgba(13, 13, 13, 0.765);
+  border: 1px solid rgba(13, 13, 13, 0.765);
   border-radius: 80px;
   padding: 10px 13px;
   font-size: 25px;
   color: rgb(21, 20, 20);
+ 
 }
 
 .footer-middle h3 {
@@ -73,8 +75,9 @@ ul {
     width: 150px;
   }
   .footer-icon {
-    margin: 12px;
+    /* margin: 12px; */
     gap: 10px;
+    padding-left: 10px;
   }
   .icon {
     border-radius: 80px;
@@ -95,5 +98,47 @@ ul {
   }
   .middle ul li a {
     font-size: 18px;
+  }
+}
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+  }
+
+  .footer-left img {
+    width: 150px;
+  }
+  .footer-icon {
+    /* margin: 12px; */
+    gap: 10px;
+    padding-left: 10px;
+  }
+  .icon {
+    border-radius: 80px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+  .footer-right {
+    margin: 10px;
+  }
+  .footer-right-a a{
+    display: none;
+  }
+  .footer-right-address {
+    margin-top: 20px;
+  }
+  .footer-right-address p {
+    font-size: 14px;
+  }
+  .middle ul li a {
+    font-size: 16px;
+  }
+  .copy-right{
+    font-size: 12px;
   }
 }
