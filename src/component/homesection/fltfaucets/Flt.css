@@ -76,8 +76,8 @@
         /* margin: 20px; */
     }
     .flt,.flt-second{
-        margin: 20px;
-       box-shadow: 1px 1px 12px ;
+        margin: 20px 0px;
+       /* box-shadow: 1px 1px 12px ; */
    }
    .flt img{
     width: 100%;
