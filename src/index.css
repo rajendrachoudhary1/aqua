@@ -1,59 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: "Inria Serif", serif; */
-    font-family: 'Poppins', sans-serif;
- }
- #root{
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Liter&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+#root {
   overflow-x: hidden;
 }
- .container{
-   padding-left: 10%;
-   padding-right: 10%;
- }
- .productpage-container{
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.productpage-container {
   display: flex;
- }
- @media (max-width:700px) {
-   .container{
+}
+@media (max-width: 700px) {
+  .container {
     padding-left: 5%;
     padding-right: 5%;
-
-   }
-  
- }
- .carousel-wrapper {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  }
 }
-
-/* Custom dot container */
-.custom-dot-list-style {
-  position: absolute;
-  bottom: 10px; /* Adjust distance from the bottom */
-  display: flex;
-  justify-content: center;
-  gap: 6px; /* Adjust spacing between lines */
-}
-
-/* Convert dots into lines */
-.custom-dot-list-style li {
-  width: 20px;  /* Line width */
-  height: 4px;  /* Line height */
-  background-color: #ccc; /* Default inactive line color */
-  border-radius: 2px;
-  transition: all 0.3s ease;
-}
-
-/* Active line */
-.custom-dot-list-style li.react-multi-carousel-dot--active {
-  background-color: #000; /* Active line color */
-  width: 30px; /* Make active line longer */
-}
- 
