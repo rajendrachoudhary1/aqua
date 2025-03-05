@@ -1,79 +1,55 @@
 .shower-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 60px;
-}
-.shower img {
-  width: 100%;
-}
-.shower-text {
-  max-width: 600px;
-  padding: 20px;
-}
-.shower-text p {
-  line-height: 30px;
-  word-spacing: 2px;
-  letter-spacing: 1px;
-}
-.shower-text h3 {
-  font-size: 50px;
-  color: rgb(4, 89, 95);
-}
-.shower-text h3 span {
-  color: rgb(1, 57, 83);
-}
-.second {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.second_img img {
-  width: 100%;
-}
-.second-text {
-  padding-left: 60px;
-}
-@media (max-width: 1025px) {
-  .shower-text {
-    max-width: 500px;
-    padding: 20px;
-  }
-  .shower-text h3 {
-    font-size: 40px;
-  }
-}
-@media (max-width: 900px) {
-  .shower-text {
-    max-width: 400px;
-    padding: 20px;
-  }
-  .shower-text h3 {
-    font-size: 30px;
-  }
-  .shower-text p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 700px) {
-  .shower-container {
     display: flex;
-    flex-direction: column;
-  }
-  .shower-text {
-    max-width: 600px;
-    padding: 20px;
-    text-align: center;
-  }
-  .shower-text h3 {
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+}
 
-  .shower-text p {
-    font-size: 12px;
-    line-height: 20px;
-  }
-  .second_img img {
+.shower {
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.shower img {
     width: 100%;
-  }
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shower-text {
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.shower-text h3 {
+    font-size: 24px;
+}
+
+.shower-text span {
+    color: #12a4f3;
+}
+.second{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .shower-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .shower, .shower-text {
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .shower-text p{
+        font-size: 12px;
+    }
 }
