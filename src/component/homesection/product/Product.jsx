@@ -6,13 +6,13 @@ import "./Product.css";
 const Product = () => {
   return (
     <>
-      {/* First Product Section - Animation triggers when in view */}
+      
       <motion.div 
         className="shower-container"
         initial={{ opacity: 0, x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6 }}
-        viewport={{ once: false, amount: 0.3 }} // Ensures animation triggers when 30% of the section is visible
+        viewport={{ once: false, amount: 0.3 }} 
       >
         <motion.div 
           className="shower"
@@ -42,7 +42,7 @@ const Product = () => {
         </motion.div>
       </motion.div>
 
-      {/* Second Product Section - Animation triggers when in view */}
+      
       <motion.div 
         className="shower-container second"
         initial={{ opacity: 0, x: 100 }}

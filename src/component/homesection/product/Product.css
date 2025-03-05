@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding: 40px;
+    /* padding: 40px; */
 }
-
+ 
 .shower {
     width: 50%;
     overflow: hidden;
@@ -24,6 +24,9 @@
     text-align: left;
     font-size: 18px;
     color: #333;
+    padding: 60px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .shower-text h3 {

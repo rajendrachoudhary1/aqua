@@ -7,7 +7,9 @@
     /* font-family: "Inria Serif", serif; */
     font-family: 'Poppins', sans-serif;
  }
- 
+ #root{
+  overflow-x: hidden;
+}
  .container{
    padding-left: 10%;
    padding-right: 10%;
