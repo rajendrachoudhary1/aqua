@@ -48,7 +48,7 @@
     .basin {
       position: relative;
       display: inline-block;
-      height: 40vh;
+      height: 30vh;
       width: 100%;
     }
     .basin-title{ 
@@ -61,5 +61,8 @@
     }
     .basin-title p{
       font-size: 14px;
+    }
+    .basin-title button{
+      font-size: 10px;
     }
   }

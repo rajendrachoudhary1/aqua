@@ -26,7 +26,7 @@ nav{
     display: none;
      
 }
- 
+/*  
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -37,26 +37,66 @@ nav ul li{
     
 }
 nav ul li a {
-    color: rgb(27, 26, 26); /* Change this to your preferred color */
+    color: rgb(27, 26, 26);  
     text-decoration: none;
     transition: color 0.3s ease-in-out;
     font-weight: 400;
     text-transform: uppercase;
 }
-
+*/
 nav ul li a:hover {
-    color: #12a4f3; /* Change this to the hover color you want */
+    color: #425a68;  
+} 
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative; /* Needed for positioning the underline */
 }
+
+nav ul li a {
+    color: rgb(27, 26, 26);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 3px; /* Adds space between text and underline */
+}
+
+/* Underline Effect */
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Thickness of underline */
+    background-color: #5b6971; /* Change this to your preferred underline color */
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* On Hover: Expand Underline */
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/* Keep Underline for Active Page */
+nav ul li a.active::after {
+    width: 100%;
+    left: 0;
+}
+
+
 .dark-nav{
     background: #eeeeee;
     box-shadow: 1px 1px 20px gray;
     transition: 0.5s;  
 } 
-.active {
-    color: #12a4f3; /* Change to whatever color you want */
-    font-weight: bold;
-  }
-  
+ 
 @media (max-width: 1000px) {
     nav ul li{
         margin: 3px 10px;

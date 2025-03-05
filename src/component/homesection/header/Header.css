@@ -44,7 +44,7 @@
 
 @media (max-width: 700px) {
     .hero {
-        height: 38vh;
+        height: 30vh;
     }
     .hero-title{
         bottom: 5px;

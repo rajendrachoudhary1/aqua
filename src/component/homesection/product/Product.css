@@ -1,89 +1,79 @@
-.shower-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* flex-wrap: wrap; */
+.shower-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
 }
-.shower{
-     
-     /* width: 400px; */
-
+.shower img {
+  width: 100%;
 }
-.shower img{
-    width: 100%;
+.shower-text {
+  max-width: 600px;
+  padding: 20px;
 }
-.shower-text{
- max-width: 600px;
- padding: 20px;
+.shower-text p {
+  line-height: 30px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
 }
-.shower-text p{
-    line-height: 30px;
+.shower-text h3 {
+  font-size: 50px;
+  color: rgb(4, 89, 95);
 }
-.shower-text h3{
-    font-size: 50px;
-    color: rgb(4, 89, 95);
+.shower-text h3 span {
+  color: rgb(1, 57, 83);
 }
-.shower-text h3 span{
-    color: rgb(1, 57, 83);
+.second {
+  display: flex;
+  flex-direction: row-reverse;
 }
-.second{
-    display: flex;
-    flex-direction: row-reverse;
+.second_img img {
+  width: 100%;
 }
-.second_img img{
-    width: 100%;
-}
-.second-text{
-    padding-left: 60px;
-    
+.second-text {
+  padding-left: 60px;
 }
 @media (max-width: 1025px) {
-    .shower-text{
-        max-width: 500px;
-        padding: 20px;
-       }
-       .shower-text h3{
-        font-size: 40px;
-    }
-    
+  .shower-text {
+    max-width: 500px;
+    padding: 20px;
+  }
+  .shower-text h3 {
+    font-size: 40px;
+  }
 }
 @media (max-width: 900px) {
-    .shower-text{
-        max-width: 400px;
-        padding: 20px;
-       }
-       .shower-text h3{
-        font-size: 30px;
-    }
-    .shower-text p{
-      
-        font-size: 12px;
-    }
-   
-    
+  .shower-text {
+    max-width: 400px;
+    padding: 20px;
+  }
+  .shower-text h3 {
+    font-size: 30px;
+  }
+  .shower-text p {
+    font-size: 12px;
+  }
 }
 @media (max-width: 700px) {
-    .shower-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .shower-text{
-        max-width: 600px;
-        padding: 20px;
-        text-align: center;
-       }
-       .shower-text h3{
-        font-size: 30px;
-        margin-bottom: 10px;
-    }
-   
-    .shower-text p{
-      
-        font-size: 12px;
-        line-height: 20px;
-    }
-    .second_img img{
-        width: 100%;
-    }
-    
+  .shower-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .shower-text {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+  }
+  .shower-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .shower-text p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .second_img img {
+    width: 100%;
+  }
 }
