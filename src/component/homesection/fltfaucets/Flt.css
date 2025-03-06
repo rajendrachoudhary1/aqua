@@ -81,4 +81,11 @@
     .flt {
         width: 90%;
     }
+    .flt-title h3{
+        font-size: 30px;
+         
+    }
+    .flt-title{
+        margin-bottom: 30px;
+    }
 }

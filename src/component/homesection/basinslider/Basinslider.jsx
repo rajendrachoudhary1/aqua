@@ -1,7 +1,7 @@
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import hero from '../../../assets/basin1.jpg'
+import hero from '../../../assets/basin_img.jpg'
 import hero1 from '../../../assets/basin2.jpg'
  
 import Basin from "../basin/Basin";
