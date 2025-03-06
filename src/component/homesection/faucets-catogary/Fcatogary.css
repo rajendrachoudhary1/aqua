@@ -1,67 +1,60 @@
- .icon-main-container{
-     
-    border: 1px solid #CCCCCC;
-   text-align: center;
-    margin: 20px;
-    border-radius: 10px;
-    padding-bottom: 20px;
-     
- }
- .icon-main-container h3{
-    margin: 30px;
- }
- .icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .f-info{
-    width: 130px;
-    padding: 10px;
-    border: 1px solid #CCCCCC;
-    margin: 20px;
+.icon-main-container {
+  border: 1px solid #cccccc;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.icon-main-container h3 {
+  margin: 30px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-info {
+  width: 130px;
+  padding: 10px;
+  border: 1px solid #DDD;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.faucet_icon {
+  width: 100px;
+  border-radius: 50%;
+  padding: 25px;
+  background: #eee;
+}
+.faucet_icon img {
+  width: 100%;
+}
+.icon-container-div {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .icon-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px; 
- }
- .faucet_icon{
-    width: 100px; 
+  }
+}
+@media (max-width: 550px) {
+  .f-info {
+    width: 80px;
+    padding: 8px;
+    margin: 10px;
+  }
+  .faucet_icon {
+    width: 70px;
     border-radius: 50%;
     padding: 25px;
-    background: #EEE;
- }
- .faucet_icon img{
-    width: 100%;
- }
- .icon-container-div{
-   display: flex;
-   
-    
- }
- @media (max-width:768px) {
-   
-   .icon-container{
-      display: flex;
-      flex-direction: column;
-   }
- }
- @media (max-width:550px) {
-   
-   .f-info{
-      width: 80px;
-      padding: 8px; 
-      margin: 10px;
-      
-   }
-   .faucet_icon{
-      width: 70px; 
-      border-radius: 50%;
-      padding: 25px;
-      background: #EEE;
-   }
-   .f-info p{
-      font-size: 12px;
-   }
- }
+    background: #eee;
+  }
+  .f-info p {
+    font-size: 12px;
+  }
+}
