@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div className='footer-middle'>
             <h3>Pages</h3>
-            <div className="underline1"></div>
+            <div className="underline-footer"></div>
             <div className='middle'>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -32,11 +32,13 @@ const Footer = () => {
 
         <div className='footer-right'>
              <h3>Contact</h3>
-             <div className="underline1"></div>
+             <div className="underline-footer"></div>
             <div className='footer-right-address'>
                 <p>SHREE RAM DISTRIBUTOR</p>
                 <p>Opp. MPE FINANCE PVT. LTD.,Ganesh Marge</p>
                 <p>Nr. Mahatma Gandhi Circle,Sumerpur,Pali-306902</p>
+                <p>Phone no : 9923234234</p>
+                <p>Tel no : 7763234234</p>
             </div>
         </div>
 

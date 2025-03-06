@@ -18,6 +18,7 @@ nav{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     padding: 3px 5px;
+    margin: 3px 0px;
 }
 .nav-logo img{
     width: 100%;

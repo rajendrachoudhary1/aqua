@@ -27,7 +27,7 @@ const Fcatogary = () => {
                 <img src={icon2} alt="" />
               </div>
               <div className="underline1"></div>
-              <p>VIA</p>
+              <p>CANIS</p>
             </div>
             <div className="f-info">
               <div className="faucet_icon">
@@ -46,7 +46,7 @@ const Fcatogary = () => {
                 <img src={icon4} alt="" />
               </div>
               <div className="underline1"></div>
-              <p>DUCK</p>
+              <p>AURIGA</p>
             </div>
             <div className="f-info">
               <div className="faucet_icon">
@@ -54,7 +54,7 @@ const Fcatogary = () => {
                 <img src={icon5} alt="" />
               </div>
               <div className="underline1"></div>
-              <p>SCORPIO</p>
+              <p> SCORPIUS</p>
             </div>
             <div className="f-info">
               <div className="faucet_icon">
@@ -62,7 +62,7 @@ const Fcatogary = () => {
                 <img src={icon6} alt="" />
               </div>
               <div className="underline1"></div>
-              <p>SCORPIO</p>
+              <p>DUET</p>
             </div>
           </div>
         </div>

@@ -28,9 +28,18 @@
   color: rgb(21, 20, 20);
  
 }
+.underline-footer{
+  width: 100%;
+  height: 1px;  
+  background: #0d8cdc;
+  margin-top: 5px;  
+  margin-bottom: 5px;  
+}
 
-.footer-middle h3 {
-  font-size: 24px;
+.footer-middle h3,.footer-right h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
   color: rgb(18, 17, 17);
 }
 .footer-middle a,
@@ -40,16 +49,21 @@ ul {
   font-size: 18px;
   color: rgb(30, 29, 29);
   font-weight: 300;
+  letter-spacing: 1px;
+   
+}
+.middle{
+  line-height: 20px;
 }
 .footer-right {
   margin: 20px;
 }
 
 .footer-right-address {
-  margin-top: 30px;
-}
-.footer-right h3 {
-  color: rgb(28, 28, 28);
+  margin-top: 10px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 20px;
 }
 .footer-right-address p {
   font-size: 16px;

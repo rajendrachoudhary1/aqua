@@ -1,6 +1,7 @@
 .basin-container{
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    margin-top: 50px;
  }
 .basin {
     position: relative;
@@ -45,6 +46,10 @@
     border: 1px solid gray;
   }
   @media (max-width:500px) {
+    .basin-container{ 
+      margin-bottom: 50px;
+      margin-top: 30px;
+   }
     .basin {
       position: relative;
       display: inline-block;
