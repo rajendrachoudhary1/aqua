@@ -34,11 +34,7 @@ const Footer = () => {
              <h3>Contact</h3>
              <div className="underline-footer"></div>
             <div className='footer-right-address'>
-                <p>SHREE RAM DISTRIBUTOR</p>
-                <p>Opp. MPE FINANCE PVT. LTD.,Ganesh Marge</p>
-                <p>Nr. Mahatma Gandhi Circle,Sumerpur,Pali-306902</p>
-                <p>Phone no : 9923234234</p>
-                <p>Tel no : 7763234234</p>
+                <p>Office No : 9166748923</p>
             </div>
         </div>
 
