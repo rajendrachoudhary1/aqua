@@ -17,6 +17,12 @@ function App() {
     });
   }, []);
 
+  const [toggle, setToggle] = useState(false);
+
+  const displaynav = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <>
       {" "}
@@ -27,35 +33,43 @@ function App() {
             <div className="nav-logo">
               <img src={logo} alt="" />
             </div>
-            <ul>
-              <li>
-                <NavLink exact to="/" activeClassName="active">
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/Faucets" activeClassName="active">
-                  Faucets
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/Shower" activeClassName="active">
-                  Sanitaryware
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/Accessories" activeClassName="active">
-                  Accessories
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/Contact" activeClassName="active">
-                  Contact
-                </NavLink>
-              </li>
-            </ul>
-            <FontAwesomeIcon icon={faBars} className="bars" />
-          </nav>
+            <FontAwesomeIcon
+              icon={faBars}
+              className="bars"
+              onClick={displaynav}
+            />
+            
+
+               
+              <ul className={toggle ? "ul-display" : ""}>
+                <li>
+                  <NavLink exact to="/" activeClassName="active">
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Faucets" activeClassName="active">
+                    Faucets
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Sanitaryware" activeClassName="active">
+                    Sanitaryware
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Accessories" activeClassName="active">
+                    Accessories
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/Contact" activeClassName="active">
+                    Contact
+                  </NavLink>
+                </li>
+              </ul>
+            </nav>
+         
 
           {/* Route Definitions */}
           <Routes>

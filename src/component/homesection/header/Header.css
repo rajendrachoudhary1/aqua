@@ -1,5 +1,6 @@
 .hero {  
   margin-top: 80px;
+  height: 80vh;
 }
 
 .hero img {
@@ -10,5 +11,6 @@
 @media (max-width: 700px) {
   .hero {
     margin-top: 60px;
+    height: auto;
   }
 }

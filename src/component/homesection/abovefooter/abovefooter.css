@@ -1,6 +1,13 @@
 .faucet-bg{
     width: 100%;
+    height: 80vh;
 }
 .faucet-bg img{
     width: 100%;
+}
+@media (max-width:768px) {
+    
+    .faucet-bg{
+        height: auto;
+    }
 }
