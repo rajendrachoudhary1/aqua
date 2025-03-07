@@ -12,13 +12,9 @@ nav{
     /* background: #eeeeee; */
 }
 .nav-logo{
-    width: 130px;
-    /* background-color: rgb(129, 177, 232); */
-    background-color: #1e4753;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    padding: 3px 5px;
-    margin: 3px 0px;
+    width: 180px;
+    padding: 3px 2px;
+    margin-top: 4px;
 }
 .nav-logo img{
     width: 100%;
