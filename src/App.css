@@ -83,6 +83,7 @@ nav ul li a.active {
         transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out, visibility 0.5s;
         line-height: 30px;
         padding: 30px;
+        
     }
     
     .ul-display {
@@ -97,7 +98,9 @@ nav ul li a.active {
         font-size: 25px;
         cursor: pointer;
     }
-     
+    nav ul li{
+        font-size: 14px;
+    }
     
     
 }
