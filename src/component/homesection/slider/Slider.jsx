@@ -2,10 +2,12 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Header from "../header/Header";
-import hero from '../../../assets/main3.jpg'
-import hero1 from '../../../assets/s2.jpg'
-import hero2 from '../../../assets/s3.jpg'
-import hero3 from '../../../assets/s4.jpg'
+import hero from '../../../assets/product/back1.png'
+import hero1 from '../../../assets/product/back2.png'
+import hero2 from '../../../assets/product/back3.png'
+import hero3 from '../../../assets/product/back4.png'
+ 
+ 
 const featureinfo = [
   {
     img: hero,

@@ -4,7 +4,7 @@ import Footer from '../component/homesection/footer/Footer'
 import Product from '../component/homesection/product/Product'
 import Slider from '../component/homesection/slider/Slider'
 import Tapcard from '../component/homesection/tapcard/Tapcard'
-import Basinslider from '../component/homesection/basinslider/Basinslider'
+import Abovefooter from '../component/homesection/abovefooter/abovefooter'
 
 const Homepage = () => {
   return (
@@ -15,7 +15,7 @@ const Homepage = () => {
       <Fcatogary/>
        <Flt/>
        <Tapcard/>
-       <Basinslider/>
+       <Abovefooter/>
        <Footer/>
     
       
