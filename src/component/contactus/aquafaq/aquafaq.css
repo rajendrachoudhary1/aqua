@@ -1,0 +1,71 @@
+.aquaContainer{
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.faq{
+    background: #1e4753;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.faq h1{
+    text-align: center;
+    margin: 30px auto;
+}
+.underline-faq{
+    width: 100%;
+    height: 1px;  
+    background: #EEEEEE;
+    margin-top: 5px;  
+    margin-bottom: 5px;  
+}
+.question{
+    margin: 20px auto;
+}
+.ques {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.ans {
+    color:  #848E9C;
+    margin-top: 5px;
+}
+span {
+    transition: transform 0.1s ease-in-out;
+  }
+.rotate-icon {
+    transform: rotate(90deg);
+  }
+  @media (min-width: 1700px) {
+
+    .ques{
+        font-size: 25px;
+    }
+    .ans{
+        font-size: 24px;
+    }
+  }
+@media (max-width: 700px) {
+    .faq{
+        padding: 10px;
+    }
+    .faq h1{
+        font-size: 15px;
+        margin: 10px auto;
+    }
+    .question{
+        margin: 10px auto;
+    }
+    .ques {
+     font-size: 10px;
+    }
+    .ans{
+        font-size: 10px;
+    }
+}

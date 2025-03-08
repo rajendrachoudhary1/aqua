@@ -8,6 +8,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import Showerpage from "./pages/Showerpage";
 import { NavLink } from "react-router-dom";
+import Contactuspage from "./pages/Contactuspage";
 function App() {
   const [sticky, setSticky] = useState(false);
 
@@ -53,7 +54,7 @@ function App() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/Sanitaryware" activeClassName="active">
+                  <NavLink to="/Shower" activeClassName="active">
                     Sanitaryware
                   </NavLink>
                 </li>
@@ -76,6 +77,8 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/Faucets" element={<Productpage />} />
             <Route path="/Shower" element={<Showerpage />} />
+            <Route path="/Contact" element={<Contactuspage />} />
+            
           </Routes>
         </div>
       </Router>
