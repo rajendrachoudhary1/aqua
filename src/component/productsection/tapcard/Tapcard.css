@@ -6,6 +6,7 @@
     text-align: center;
     margin: 20px; 
     border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
 
 }
 .tapcard-product img{
@@ -17,4 +18,14 @@
     background: #EEEEEE; /* Gradient from Red to Blue */
     margin-top: 5px;  
     margin-bottom: 5px;  
+}
+@media (max-width:700px) {
+     .tapcard-product{
+        width: 150px;
+        margin: 5px;
+
+     }
+     .tapcard-product p{
+        font-size: 12px;
+     }
 }
