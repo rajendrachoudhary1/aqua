@@ -6,6 +6,9 @@
     text-align: center;
     padding: 50px;
     position: relative;
+    /* border-bottom-right-radius: 230px; */
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
     /* padding-bottom: 100px; */
 }
 .contactContainerform p,.contactContainerform h1{
