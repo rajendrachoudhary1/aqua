@@ -1,6 +1,7 @@
 .aquaContainer{
     margin-top: 300px;
     margin-bottom: 100px;
+   
 }
 
 .faq{
@@ -54,6 +55,9 @@ span {
 @media (max-width: 700px) {
     .faq{
         padding: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
     }
     .faq h1{
         font-size: 15px;
