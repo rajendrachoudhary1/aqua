@@ -57,7 +57,7 @@ function App() {
                 </li>
                 <li>
                   <NavLink to="/Shower" activeClassName="active">
-                    Sanitaryware
+                    Shower
                   </NavLink>
                 </li>
                 <li>
