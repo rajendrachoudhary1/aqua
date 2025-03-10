@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars ,faTimes} from "@fortawesome/free-solid-svg-icons";
 import Homepage from "./pages/Homepage";
 import Productpage from "./pages/Productpage";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
@@ -37,7 +37,7 @@ function App() {
               <img src={logo} alt="" />
             </div>
             <FontAwesomeIcon
-              icon={faBars}
+               icon={toggle ? faTimes : faBars} 
               className="bars"
               onClick={displaynav}
             />
