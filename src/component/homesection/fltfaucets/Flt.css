@@ -1,8 +1,17 @@
+.flt-main-container{
+    margin-top: 100px;
+    background:  #1e4753;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 80px;
+    
+}
 .flt-title{
     text-align: center;
     font-size: 40px;
     margin-top: 40px;
     margin-bottom: 80px;
+    color: #EEE;
      
 }
 .flt-main {

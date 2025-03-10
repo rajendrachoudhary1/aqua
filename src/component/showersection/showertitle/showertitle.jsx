@@ -7,7 +7,7 @@ const Showertitle = () => {
            <img src={img} alt="" />
          </div>
          <div className="fproduct-title">
-           <h1>FAUCETS COLLECTION</h1>
+           {/* <h1>FAUCETS COLLECTION</h1> */}
            <div className="fproduct-sub">
              <a href="">HOME</a>
              <span> | </span>
