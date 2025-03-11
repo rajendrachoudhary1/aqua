@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import FLT_IMG1 from '../../../assets/flt.jpg';
-import FLT_IMG2 from '../../../assets/SHOWER.jpg';
+import FLT_IMG1 from '../../../assets/background/flt.jpg';
+import FLT_IMG2 from '../../../assets/background/SHOWER.jpg';
 import './Flt.css';
 
 const Flt = () => {

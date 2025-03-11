@@ -1,15 +1,22 @@
-import React from 'react'
-import './Tapcard.css'
-import img from '../../../assets/t1.png'
-const Tapcard = () => {
-  return (
-    <div className='tapcard-product'>
-      <img src={img} alt="" />
-      <div className='underline-tap-product'></div>
-      <p>FLT-1111</p>
-      <p>bib cock</p>
-    </div>
-  )
-}
+import React from "react";
+import { useNavigate } from "react-router-dom";
+import "./Tapcard.css";
 
-export default Tapcard
+const Tapcard = ({ product }) => {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/product/${product._id}`); // Navigate to the product details page
+  };
+
+  return (
+    <div className="tapcard-product" onClick={handleCardClick} style={{ cursor: "pointer" }}>
+      <img src={product.image} alt={product.title} />
+      <div className="underline-tap-product"></div>
+      <p>{product.model}</p>
+      <p>{product.name}</p>
+    </div>
+  );
+};
+
+export default Tapcard;

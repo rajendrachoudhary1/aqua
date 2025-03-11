@@ -1,4 +1,4 @@
-import bg from '../../../assets/product/grd.png'  
+import bg from '../../../assets/background/grd.png'  
 import './abovefooter.css'
  
 const Abovefooter = (props) => {

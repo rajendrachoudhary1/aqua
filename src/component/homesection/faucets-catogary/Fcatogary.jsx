@@ -39,7 +39,7 @@ const Fcatogary = () => {
             </div>
           </div>
 
-          <div div className="icon-container-div">
+          <div className="icon-container-div">
             <div className="f-info">
               <div className="faucet_icon">
                 {" "}

@@ -1,4 +1,4 @@
-import img from '../../../assets/product/backgrd.png'
+import img from '../../../assets/background/backgrd.png'
 import './showertitle.css'
 const Showertitle = () => {
   return (
