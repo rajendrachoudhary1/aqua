@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { products } from "../assets/assets"; // Adjust path if needed
-import "./ProductDetailPage.css"; // Import CSS
+import "./ProductDetailpage.css"; // Import CSS
 
 const ProductDetailPage = () => {
   const { id } = useParams();
