@@ -83,9 +83,9 @@ function App() {
         {/* Route Definitions */}
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/Faucets/" element={<Productpage />} />
-          <Route path="/Shower/" element={<Showerpage />} />
-          <Route path="/Accessories/" element={<Assocesriospage />} />
+          <Route path="/Faucets" element={<Productpage />} />
+          <Route path="/Shower" element={<Showerpage />} />
+          <Route path="/Accessories" element={<Assocesriospage />} />
           <Route path="/Contact" element={<Contactuspage />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
 
