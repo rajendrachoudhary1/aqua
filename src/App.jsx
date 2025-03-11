@@ -10,8 +10,7 @@ import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-do
 import logo from "./assets/background/logo-f.png";
 import "./App.css";
 import { useState, useEffect } from "react";
-import ProductDetailPage from './pages/ProductDetailPage'
-import {products} from './assets/assets'
+import ProductDetailPage from './pages/ProductDetailPage' 
 
 function App() {
   const [sticky, setSticky] = useState(false);
@@ -91,7 +90,7 @@ function App() {
 
         </Routes>
 
-        {/* Footer */}
+       
         <Footer />
       </div>
     </Router>
