@@ -6,6 +6,7 @@ import Tapcard from "../component/homesection/tapcard/Tapcard";
 import Abovefooter from "../component/homesection/abovefooter/abovefooter";
 
 const Homepage = () => {
+   
   return (
     <div>
       <Slider />
