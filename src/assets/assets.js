@@ -349,10 +349,10 @@ export const products = [
   },
   {
     _id: "aaaaw",
-    name: "Boy Round Neck Pure Cotton T-shirt",
+    name: " ",
     model : 'JIV-101',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " ",
 
     image: [p_img23],
     category: "faucet",
@@ -362,10 +362,10 @@ export const products = [
   },
   {
     _id: "aaaax",
-    name: "Boy Round Neck Pure Cotton T-shirt",
+    name: "",
     model : 'JIV-102',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " ",
 
     image: [p_img24],
     category: "faucet",
@@ -374,10 +374,10 @@ export const products = [
   },
   {
     _id: "aaaay",
-    name: "Girls Round Neck Cotton Top",
+    name: " ",
     model : 'JIV-103',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " ",
 
     image: [p_img25],
     category: "faucet",
@@ -387,10 +387,10 @@ export const products = [
   },
   {
     _id: "aaaaz",
-    name: "Women Zip-Front Relaxed Fit Jacket",
+    name: " ",
     model : 'JIV-106',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " ",
 
     image: [p_img26],
     category: "faucet",
@@ -400,11 +400,10 @@ export const products = [
   },
   {
     _id: "aaaba",
-    name: "Girls Round Neck Cotton Top",
+    name: " ",
     model : 'JIV-109',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-
+      "",
     image: [p_img27],
     category: "faucet",
     subCategory: "jiva",
