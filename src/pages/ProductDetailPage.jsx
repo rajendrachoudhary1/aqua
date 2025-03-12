@@ -15,17 +15,24 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <div className="product-detail">
-      <h1>{product.title}</h1>
+    <>
+    <div className="product-detail-container">
+    <div className="product-detail"> 
       <img src={product.image} alt={product.name} />
-      <p>{product.description}</p>
-      <h3>Price: ${product.price}</h3>
-
-      {/* Back to Home Button */}
-      <button className="back-button" onClick={() => navigate(-1)}>
-        ← Back to Products
-      </button>
+      <div>
+      <h1>{product.name}</h1>
+      <h3>{product.model}</h3>
+      <p>{product.description}</p> 
+      </div>
+      
     </div>
+      <button className="back-button" onClick={() => navigate(-1)}>
+      ← Back to Products
+    </button>
+    </div>
+    
+    </>
+     
   );
 };
 
