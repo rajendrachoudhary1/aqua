@@ -8,7 +8,7 @@ const Shower = () => {
   return (
     <div className="shower-main-container">
       {showerProducts.map((product, index) => (
-        <Showercard key={index} image={product.image} name={product.name} />
+        <Showercard key={index} image={product.image} name={product.name} model={product.model} />
       ))}
     </div>
   );
