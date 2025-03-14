@@ -48,8 +48,8 @@
   }
   
   .product-detail h3 {
-    font-size: 22px;
-    color: #e63946;
+    font-size: 18px;
+    color: #3d4a52;
     margin-top: 10px;
   }
  
@@ -67,18 +67,18 @@
     font-size: 16px; 
   }
 
-/* Full View Mode */
+ 
 .product-detail.full-view img {
   max-width: 100%;
  
 }
 
-/* Hide text in full view mode */
+ 
 .product-detail.full-view div {
   display: none;
 }
 
-/* Exit Full View Button */
+ 
 .product-detail.full-view .full-view-button {
   position: absolute;
   bottom: 20px;
@@ -90,7 +90,7 @@
 .full-view-button {
   margin-top: 10px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #697887;
   color: white;
   border: none;
   cursor: pointer;
@@ -99,7 +99,7 @@
 }
 
 .full-view-button:hover {
-  background-color: #0056b3;
+  background-color: #6383a5;
 }
 
   
