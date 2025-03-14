@@ -29,6 +29,19 @@ import p_img28 from "./all_product/FLT/pel-101.jpg";
 import p_img29 from "./all_product/FLT/pel-102.jpg";
 import p_img30 from "./all_product/FLT/pel-106.jpg";
 import p_img31 from "./all_product/FLT/pel-108ex.jpg";
+import p_img32 from "./all_product/shower/shower1.png";
+import p_img33 from "./all_product/shower/shower2.png";
+import p_img34 from "./all_product/shower/shower3.png";
+import p_img35 from "./all_product/shower/shower4.png";
+import p_img36 from "./all_product/shower/shower5.png";
+import p_img37 from "./all_product/shower/shower6.png";
+import p_img38 from "./all_product/shower/shower7.png";
+import p_img39 from "./all_product/shower/shower8.png";
+import p_img40 from "./all_product/shower/shower9.png";
+import p_img41 from "./all_product/shower/shower10.png";
+import p_img42 from "./all_product/shower/shower11.png";
+import p_img43 from "./all_product/shower/shower12.png";
+import p_img44 from "./all_product/shower/shower13.png";
  
  
 // import p_img28 from "./p_img28.png";
@@ -448,162 +461,169 @@ export const products = [
 
       bestseller: false,
     },
-  //   {
-  //     _id: "aaabf",
-  //     name: "Men Round Neck Pure Cotton T-shirt",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    {
+      _id: "aaabf",
+      name: "Collar 4'x 4' -SS ",
+      description:
+        " ",
 
-  //     image: [p_img32],
-  //     category: "Men",
-  //     subCategory: "Topwear",
+      image: [p_img32],
+      category: "shower",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabg",
-  //     name: "Girls Round Neck Cotton Top",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabg",
+      name: "Compact 5' - ABS",
+      model: '403',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img33],
-  //     category: "Kids",
-  //     subCategory: "Topwear",
+      image: [p_img33],
+      category: "shower",
+      subCategory: "",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabh",
-  //     name: "Women Round Neck Cotton Top",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabh",
+      name: "Petra 4'x 4' ABS",
+      model: '405',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img34],
-  //     category: "Women",
-  //     subCategory: "Topwear",
+      image: [p_img34],
+      category: "shower",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabi",
-  //     name: "Women Zip-Front Relaxed Fit Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabi",
+      name: "Tricon 3' - ABS",
+      model: '410',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img35],
-  //     category: "Women",
-  //     subCategory: "Winterwear",
+      image: [p_img35],
+      category: "shower",
+      subCategory: "",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabj",
-  //     name: "Women Zip-Front Relaxed Fit Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabj",
+      name: "Altis",
+      model: '616',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img36],
-  //     category: "Women",
-  //     subCategory: "Winterwear",
+      image: [p_img36],
+      category: "shower",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabk",
-  //     name: "Women Round Neck Cotton Top",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabk",
+      name: "Vignit",
+      model: '604',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img37],
-  //     category: "Women",
-  //     subCategory: "Topwear",
+      image: [p_img37],
+      category: "shower",
+      subCategory: "",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabl",
-  //     name: "Men Round Neck Pure Cotton T-shirt",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabl",
+      name: "Collar-SS",
+      model:'203',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img38],
-  //     category: "Men",
-  //     subCategory: "Topwear",
+      image: [p_img38],
+      category: "shower",
+      subCategory: "",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabm",
-  //     name: "Men Printed Plain Cotton Shirt",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabm",
+      name: "Air flow-ABS",
+      model:'205',
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img39],
-  //     category: "Men",
-  //     subCategory: "Topwear",
+      image: [p_img39],
+      category: "shower",
+      subCategory: "Topwear",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabn",
-  //     name: "Men Slim Fit Relaxed Denim Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabn",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img40],
-  //     category: "Men",
-  //     subCategory: "Winterwear",
+      image: [p_img40],
+      category: "Men",
+      subCategory: "Winterwear",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabo",
-  //     name: "Men Round Neck Pure Cotton T-shirt",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabo",
+      name: "Men Round Neck Pure Cotton T-shirt",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img41],
-  //     category: "Men",
-  //     subCategory: "Topwear",
+      image: [p_img41],
+      category: "Men",
+      subCategory: "Topwear",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabp",
-  //     name: "Boy Round Neck Pure Cotton T-shirt",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabp",
+      name: "Boy Round Neck Pure Cotton T-shirt",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img42],
-  //     category: "Kids",
-  //     subCategory: "Topwear",
+      image: [p_img42],
+      category: "Kids",
+      subCategory: "Topwear",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabq",
-  //     name: "Kid Tapered Slim Fit Trouser",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabq",
+      name: "Kid Tapered Slim Fit Trouser",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img43],
-  //     category: "Kids",
-  //     subCategory: "Bottomwear",
+      image: [p_img43],
+      category: "Kids",
+      subCategory: "Bottomwear",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabr",
-  //     name: "Women Zip-Front Relaxed Fit Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabr",
+      name: "Women Zip-Front Relaxed Fit Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img44],
-  //     category: "Women",
-  //     subCategory: "Winterwear",
+      image: [p_img44],
+      category: "Women",
+      subCategory: "Winterwear",
 
-  //     bestseller: false,
-  //   },
+      bestseller: false,
+    },
   //   {
   //     _id: "aaabs",
   //     name: "Men Slim Fit Relaxed Denim Jacket",

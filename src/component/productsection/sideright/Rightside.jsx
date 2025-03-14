@@ -4,10 +4,12 @@ import Tapcard from '../tapcard/Tapcard';
 import { products } from '../../../assets/assets'; // Import products from assets.js
 
 const Rightside = () => {
+  const faucetProducts = products.filter(product => product.category === 'faucet');
+
   return (
     <div className='rightsidebar'>
       <div className='div'>
-        {products.map((product) => (
+        {faucetProducts.map((product) => (
           <Tapcard key={product._id} product={product} />
         ))}
       </div>

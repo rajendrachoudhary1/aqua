@@ -59,7 +59,7 @@ const ProductDetailPage = () => {
     <div className="product-detail-container">
       <div className={`product-detail ${isFullView ? "full-view" : ""}`}>
         <img src={product.image} alt={product.name} onClick={() => setIsFullView(true)} />
-        
+        <div className="underline-product"></div>
         {!isFullView && (
           <div>
             <h1>{product.name}</h1>

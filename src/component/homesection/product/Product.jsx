@@ -6,24 +6,12 @@ import "./Product.css";
 const Product = () => {
   return (
     <>
-      <motion.div
-        className="shower-container"
-        initial={{ opacity: 0, x: -100 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: false, amount: 0.3 }}
-      >
-        <motion.div className="shower" whileHover={{ scale: 1.05 }}>
+      <div className="shower-container"  >
+        <div className="shower">
           <img src={imageSrc} alt="" />
-        </motion.div>
+        </div>
 
-        <motion.div
-          className="shower-text"
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: false, amount: 0.3 }}
-        >
+        <div className="shower-text" >
           <h3>
             Transform Your Shower Experience with<span> Aquabenz</span>
           </h3>
@@ -35,8 +23,8 @@ const Product = () => {
             our designs are presented to our customers accurate to every
             fraction, smooth like silk, and shiny like a mirror.
           </p>
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
 
       <motion.div
         className="shower-container second"

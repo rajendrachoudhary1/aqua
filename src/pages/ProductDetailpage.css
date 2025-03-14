@@ -52,6 +52,7 @@
     color: #e63946;
     margin-top: 10px;
   }
+ 
   
   .back-button {
     display: inline-block;
@@ -69,6 +70,7 @@
 /* Full View Mode */
 .product-detail.full-view img {
   max-width: 100%;
+ 
 }
 
 /* Hide text in full view mode */
@@ -107,6 +109,13 @@
       display: flex;
       flex-direction: column;
     }
+    .underline-product{
+      width: 100%;
+      height: 2px;  
+      background: #EEEEEE; /* Gradient from Red to Blue */
+      margin-top: 5px;  
+      margin-bottom: 5px;  
+    }
   }
   @media (max-width :500px) {
 
@@ -115,5 +124,9 @@
     }
     .product-detail p{
       font-size: 14px;
+    }
+    .product-detail.full-view img {
+      max-width: 90vw;
+      max-height: 90vh;
     }
   }
