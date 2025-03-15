@@ -1,0 +1,44 @@
+.rightsidebar {
+  display: flex;
+}
+.filter-section h3 {
+  color: rgb(52, 49, 49);
+  font-weight: 500;
+}
+.filter-section {
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.subCategory h3 {
+  color: rgb(67, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subCategory ul {
+  color: gray;
+}
+
+.div {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media (max-width: 700px) {
+  .rightsidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .subCategory ul {
+    display: none;
+  }
+}

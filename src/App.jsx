@@ -1,22 +1,19 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import Homepage from "./pages/Homepage";
-import Productpage from "./pages/Productpage";
-import Showerpage from "./pages/Showerpage";
-import Contactuspage from "./pages/Contactuspage";
-import Assocesriospage from "./pages/Assocesriospage"; // Fixed typo
-import Footer from "./component/homesection/footer/Footer";
 import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
+import Homepage from "./pages/Homepage";
+import Contactuspage from "./pages/Contactuspage";
+import ProductDetailPage from "./component/productsection/productdetail/ProductDetailPage";
+import ProductPage from "./pages/Productpage";
+import Footer from "./component/homesection/footer/Footer";
 import logo from "./assets/background/logo-f.png";
 import "./App.css";
-import { useState, useEffect } from "react";
-import ProductDetailPage from './pages/ProductDetailPage' 
 
 function App() {
   const [sticky, setSticky] = useState(false);
   const [toggle, setToggle] = useState(false);
 
-  // Handle sticky navbar on scroll
   useEffect(() => {
     const handleScroll = () => {
       setSticky(window.scrollY > 50);
@@ -24,7 +21,7 @@ function App() {
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll);  
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -52,45 +49,33 @@ function App() {
 
           <ul className={toggle ? "ul-display" : ""}>
             <li>
-              <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu}>
-                Home
-              </NavLink>
+              <NavLink to="/" onClick={closeMenu}>Home</NavLink>
             </li>
             <li>
-              <NavLink to="/Faucets" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu}>
-                Faucets
-              </NavLink>
+              <NavLink to="/products/faucet" onClick={closeMenu}>Faucets</NavLink>
             </li>
             <li>
-              <NavLink to="/Shower" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu}>
-                Shower
-              </NavLink>
+              <NavLink to="/products/shower" onClick={closeMenu}>Shower</NavLink>
             </li>
             <li>
-              <NavLink to="/Accessories" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu}>
-                Accessories
-              </NavLink>
+              <NavLink to="/products/accessory" onClick={closeMenu}>Accessories</NavLink>
             </li>
             <li>
-              <NavLink to="/Contact" className={({ isActive }) => (isActive ? "active" : "")} onClick={closeMenu}>
-                Contact
-              </NavLink>
+              <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
             </li>
           </ul>
         </nav>
 
         {/* Route Definitions */}
+        <div className="main-content">
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/Faucets" element={<Productpage />} />
-          <Route path="/Shower" element={<Showerpage />} />
-          <Route path="/Accessories" element={<Assocesriospage />} />
-          <Route path="/Contact" element={<Contactuspage />} />
+          <Route path="/products/:category" element={<ProductPage />} />
+          <Route path="/contact" element={<Contactuspage />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
-
         </Routes>
+      </div>
 
-       
         <Footer />
       </div>
     </Router>

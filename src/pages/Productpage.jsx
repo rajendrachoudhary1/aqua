@@ -1,21 +1,16 @@
-import Fproduct from '../component/productsection/fuacetsproduct/Fproduct' 
- 
-import Rightside from '../component/productsection/sideright/Rightside'
-const Productpage = () => {
-   
+import { useParams } from "react-router-dom";
+import Productdisplay from "../component/productsection/productdisplay/productdisplay";
+import ProductTitle from "../component/productsection/productTitle/productTitle";
+
+const ProductPage = () => {
+  const { category } = useParams();  
+
   return (
     <div>
-      
-       
-      <Fproduct/>
-      {/* <div className='productpage-container'> */}
-      {/* <Psidebar/> */}
-      <Rightside/>
-      {/* </div> */}
-       
-      
+      <ProductTitle />
+      <Productdisplay category={category} />;
     </div>
-  )
-}
+  );
+};
 
-export default Productpage
+export default ProductPage;

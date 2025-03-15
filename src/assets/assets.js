@@ -44,31 +44,13 @@ import p_img43 from "./all_product/shower/shower12.png";
 import p_img44 from "./all_product/shower/shower13.png";
  
  
-// import p_img28 from "./p_img28.png";
-// import p_img29 from "./p_img29.png";
-// import p_img30 from "./p_img30.png";
-// import p_img31 from "./p_img31.png";
-// import p_img32 from "./p_img32.png";
-// import p_img33 from "./p_img33.png";
-// import p_img34 from "./p_img34.png";
-// import p_img35 from "./p_img35.png";
-// import p_img36 from "./p_img36.png";
-// import p_img37 from "./p_img37.png";
-// import p_img38 from "./p_img38.png";
-// import p_img39 from "./p_img39.png";
-// import p_img40 from "./p_img40.png";
-// import p_img41 from "./p_img41.png";
-// import p_img42 from "./p_img42.png";
-// import p_img43 from "./p_img43.png";
-// import p_img44 from "./p_img44.png";
-// import p_img45 from "./p_img45.png";
-// import p_img46 from "./p_img46.png";
-// import p_img47 from "./p_img47.png";
-// import p_img48 from "./p_img48.png";
-// import p_img49 from "./p_img49.png";
-// import p_img50 from "./p_img50.png";
-// import p_img51 from "./p_img51.png";
-// import p_img52 from "./p_img52.png";
+import back1 from "./background/backgrd.png";
+import back2 from "./background/pmain.png";
+ 
+export const backgrnimg ={
+  back1,
+  back2
+}
 
 export const products = [
   {
