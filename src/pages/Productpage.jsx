@@ -8,7 +8,7 @@ const ProductPage = () => {
   return (
     <div>
       <ProductTitle />
-      <Productdisplay category={category} />;
+      <Productdisplay category={category} />
     </div>
   );
 };
