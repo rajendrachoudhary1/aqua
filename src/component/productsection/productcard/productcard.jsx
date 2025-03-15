@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Productcard.css";
+import "./productcard.css";
 
 const Tapcard = ({ product }) => {
   const navigate = useNavigate();

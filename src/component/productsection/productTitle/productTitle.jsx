@@ -4,9 +4,8 @@ import { backgrnimg } from '../../../assets/assets';
 import './productTitle.css';
 
 const ProductTitle = () => {
-  const { category } = useParams();  // Get category from URL
-
-  // Select background based on category
+  const { category } = useParams();  
+ 
   const backgroundImage = category === 'faucet' ? backgrnimg.back1 : category === 'shower' ? backgrnimg.back2 : category === 'accessory' ? backgrnimg.back2 : null;
 
   return (
