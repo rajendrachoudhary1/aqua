@@ -10,7 +10,7 @@ const Productdisplay = ({ category }) => {
   // Filter products based on selected category
   const categoryProducts = Array.isArray(products)
     ? products.filter(product => product.category === category)
-    : []
+    : [];
 
   // Handle subCategory selection
   const handlesubCategoryChange = (subCategory) => {
@@ -66,4 +66,4 @@ const Productdisplay = ({ category }) => {
   );
 };
 
-export default Productdisplay
+export default Productdisplay;

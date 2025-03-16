@@ -1,6 +1,6 @@
-.tapcard-product{
+/* .tapcard-product{
     width: 250px; 
-    /* background: linear-gradient(white,rgb(212, 211, 211),rgb(237, 236, 236)); */
+    
     padding: 10px;
     align-items: center;
     text-align: center;
@@ -14,13 +14,12 @@
 }
 .tapcard-product img{
     width: 100%;
-    /* background:  #1e4753; */
     
 }
 .underline-tap-product {
     width: 100%;
     height: 1px;  
-    background: #EEEEEE; /* Gradient from Red to Blue */
+    background: #EEEEEE;  
     margin-top: 5px;  
     margin-bottom: 5px;  
 }
@@ -33,4 +32,50 @@
      .tapcard-product p{
         font-size: 12px;
      }
+} */
+
+.tapcard-product {
+    width: 250px;
+    height: 350px; /* Ensures uniform height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
+}
+.tapcard-product:hover {
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.379);
+}
+.tapcard-product img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px; /* Keeps image sizes uniform */
+}
+.tapcard-product p {
+    flex-grow: 1;
+}
+.underline-tap-product {
+    width: 100%;
+    height: 1px;
+    background: #EEEEEE;
+    margin: 5px 0;
+}
+
+/* Mobile View */
+@media (max-width: 700px) {
+    .tapcard-product {
+        width: 150px;
+        height: 220px;
+        margin: 5px;
+    }
+    .tapcard-product img {
+        max-height: 120px;
+    }
+    .tapcard-product p {
+        font-size: 12px;
+    }
 }

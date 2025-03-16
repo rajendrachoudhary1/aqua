@@ -42,6 +42,23 @@ import p_img41 from "./all_product/shower/shower10.png";
 import p_img42 from "./all_product/shower/shower11.png";
 import p_img43 from "./all_product/shower/shower12.png";
 import p_img44 from "./all_product/shower/shower13.png";
+import p_img45 from "./all_product/extra/1101.jpg";
+import p_img47 from "./all_product/extra/902.jpg";
+import p_img46 from "./all_product/extra/903.jpg";
+import p_img48 from "./all_product/extra/905.jpg";
+import p_img49 from "./all_product/extra/1001.jpg";
+import p_img50 from "./all_product/extra/1006.jpg";
+import p_img51 from "./all_product/extra/1010.jpg";
+import p_img52 from "./all_product/extra/1016.jpg";
+import p_img53 from "./all_product/extra/1022.jpg";
+import p_img54 from "./all_product/extra/1105.jpg";
+import p_img55 from "./all_product/extra/1201.jpg";
+import p_img56 from "./all_product/extra/1204.jpg";
+import p_img57 from "./all_product/extra/1208.jpg";
+import p_img58 from "./all_product/extra/1209.jpg";
+import p_img59 from "./all_product/extra/1401.jpg";
+import p_img60 from "./all_product/extra/1402.jpg";
+
  
  
 import back1 from "./background/backgrd.png";
@@ -553,7 +570,7 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
       image: [p_img40],
-      category: "Men",
+      category: "shower",
       subCategory: "Winterwear",
 
       bestseller: false,
@@ -565,7 +582,7 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
       image: [p_img41],
-      category: "Men",
+      category: "shower",
       subCategory: "Topwear",
 
       bestseller: false,
@@ -577,7 +594,7 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
       image: [p_img42],
-      category: "Kids",
+      category: "shower",
       subCategory: "Topwear",
 
       bestseller: false,
@@ -589,7 +606,7 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
       image: [p_img43],
-      category: "Kids",
+      category: "shower",
       subCategory: "Bottomwear",
 
       bestseller: false,
@@ -601,104 +618,213 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
       image: [p_img44],
-      category: "Women",
+      category: "shower",
       subCategory: "Winterwear",
 
       bestseller: false,
     },
-  //   {
-  //     _id: "aaabs",
-  //     name: "Men Slim Fit Relaxed Denim Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    {
+      _id: "aaabs",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img45],
-  //     category: "Men",
-  //     subCategory: "Winterwear",
+      image: [p_img45],
+      category: "accessory",
+      subCategory: "",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabt",
-  //     name: "Men Slim Fit Relaxed Denim Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabt",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img46],
-  //     category: "Men",
-  //     subCategory: "Winterwear",
+      image: [p_img46],
+      category: "accessory",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabu",
-  //     name: "Kid Tapered Slim Fit Trouser",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabu",
+      name: "Kid Tapered Slim Fit Trouser",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img47],
-  //     category: "Kids",
-  //     subCategory: "Bottomwear",
+      image: [p_img47],
+      category: "accessory",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabv",
-  //     name: "Men Slim Fit Relaxed Denim Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabv",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img48],
-  //     category: "Men",
-  //     subCategory: "Winterwear",
+      image: [p_img48],
+      category: "accessory",
+      subCategory: '',
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabw",
-  //     name: "Kid Tapered Slim Fit Trouser",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabw",
+      name: "Kid Tapered Slim Fit Trouser",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img49],
-  //     category: "Kids",
-  //     subCategory: "Bottomwear",
+      image: [p_img49],
+      category: "accessory",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabx",
-  //     name: "Kid Tapered Slim Fit Trouser",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabx",
+      name: "Kid Tapered Slim Fit Trouser",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img50],
-  //     category: "Kids",
-  //     subCategory: "Bottomwear",
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaaby",
-  //     name: "Women Zip-Front Relaxed Fit Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      image: [p_img50],
+      category: "accessory",
+      subCategory: " ",
+      bestseller: false,
+    },
+    {
+      _id: "aaaby",
+      name: "Women Zip-Front Relaxed Fit Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img51],
-  //     category: "Women",
-  //     subCategory: "Winterwear",
+      image: [p_img51],
+      category: "accessory",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
-  //   {
-  //     _id: "aaabz",
-  //     name: "Men Slim Fit Relaxed Denim Jacket",
-  //     description:
-  //       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      bestseller: false,
+    },
+    {
+      _id: "aaabz",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
-  //     image: [p_img52],
-  //     category: "Men",
-  //     subCategory: "Winterwear",
+      image: [p_img52],
+      category: "accessory",
+      subCategory: " ",
 
-  //     bestseller: false,
-  //   },
+      bestseller: false,
+    },
+    {
+      _id: "aabaa",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img53],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabab",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img53],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabac",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img54],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabad",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img55],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabae",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img56],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabaf",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img57],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabag",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img58],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabah",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img59],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+    {
+      _id: "aabai",
+      name: "Men Slim Fit Relaxed Denim Jacket",
+      description:
+        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+
+      image: [p_img60],
+      category: "accessory",
+      subCategory: " ",
+
+      bestseller: false,
+    },
+  
 ];
