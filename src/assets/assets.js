@@ -280,7 +280,7 @@ export const products = [
     name: "Bib Cock 2 Way with Flange",
     model: "AUG-0108",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "Sleek, modern chrome faucet with a single-lever design, wall-mounted installation, and smooth curves for elegant functionality.",
 
     image: [p_img17],
     category: "faucet",
@@ -292,7 +292,7 @@ export const products = [
     _id: "aaaar",
     name: "Sink Cock with Swivel Spout & Flange",
     model: "AUG-0110",
-    description: "   ",
+    description: "Sleek wall-mounted chrome faucet with minimalist design, smooth curves, single-lever control, and extended spout for effortless functionality. ",
 
     image: [p_img18],
     category: "faucet",
@@ -305,7 +305,7 @@ export const products = [
     name: "Swan Neck with Swivel Spout ",
     model: "AUG-0111",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " Elegant chrome faucet with a modern single-lever design, cylindrical base, and extended spout for smooth water flow control.",
 
     image: [p_img19],
     category: "faucet",
@@ -319,7 +319,7 @@ export const products = [
     model: "SLK-0107",
 
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " Sleek chrome faucet with dual control levers, cylindrical design, and a compact spout, ensuring smooth water flow and functionality.",
 
     image: [p_img20],
     category: "faucet",
@@ -332,7 +332,7 @@ export const products = [
     name: " Angle Cock 2 Way ",
     model: "SLK-0108",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      " Modern chrome faucet with dual handles and sleek cylindrical design, offering smooth control and a polished, contemporary aesthetic.",
 
     image: [p_img21],
     category: "faucet",
@@ -345,7 +345,7 @@ export const products = [
     name: "Wall Mixer Tik-Tik 3 in 1 with Provision for Both Hand",
     model: "SLK-0114",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+      "Sleek wall-mounted faucet with dual lever handles and an elegant curved spout, combining functionality with a polished chrome finish for a modern touch.",
 
     image: [p_img22],
     category: "faucet",
@@ -355,9 +355,9 @@ export const products = [
   },
   {
     _id: "aaaaw",
-    name: " ",
+    name: "Bib Cock ",
     model: "JIV-101",
-    description: " ",
+    description: "Sleek wall-mounted faucet with a single lever handle and a polished chrome finish, offering a modern, minimalist aesthetic with smooth curves and clean lines. ",
 
     image: [p_img23],
     category: "faucet",
@@ -367,9 +367,9 @@ export const products = [
   },
   {
     _id: "aaaax",
-    name: "",
+    name: "Pillar Cock ",
     model: "JIV-102",
-    description: " ",
+    description: "This faucet features a polished chrome finish with a single lever handle, combining sleek curves and a sturdy base for a contemporary design. Perfect for modern bathrooms or kitchens! ",
 
     image: [p_img24],
     category: "faucet",
@@ -378,9 +378,9 @@ export const products = [
   },
   {
     _id: "aaaay",
-    name: " ",
+    name: "Angle Cock ",
     model: "JIV-103",
-    description: " ",
+    description: "This angular stop valve showcases a polished chrome finish with a sleek, ergonomic lever handle featuring a circular cutout. It offers smooth water control and adds a stylish, modern touch to bathrooms or kitchens. ",
 
     image: [p_img25],
     category: "faucet",
@@ -390,9 +390,9 @@ export const products = [
   },
   {
     _id: "aaaaz",
-    name: " ",
+    name: "Bib Cock 2 Way ",
     model: "JIV-106",
-    description: " ",
+    description: "Sleek chrome two-way bib cock with smooth lever handle and side valve, offering dual water outlets — perfect for modern bathrooms and kitchens. ",
 
     image: [p_img26],
     category: "faucet",
@@ -402,7 +402,7 @@ export const products = [
   },
   {
     _id: "aaaba",
-    name: " ",
+    name: "Swan Neck with Swivel Spout ",
     model: "JIV-109",
     description: "",
     image: [p_img27],
@@ -416,7 +416,7 @@ export const products = [
       name: " Bib Cock with Flange ",
       model: 'PEL-101',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
       image: [p_img28],
       category: "faucet",
       subCategory: "PELICAN",
@@ -428,7 +428,7 @@ export const products = [
       name: "Pillar Cock",
       model: 'PEL-102',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img29],
       category: "faucet",
@@ -441,7 +441,7 @@ export const products = [
       name: "Bib Cock 2 Way with Flange ",
       model: 'PEL-106',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img30],
       category: "faucet",
@@ -454,7 +454,7 @@ export const products = [
       name: " Sink Cock with Swivel Spout & Flange",
       model: 'PEL-108 Ex',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img31],
       category: "faucet",
@@ -479,7 +479,7 @@ export const products = [
       name: "Compact 5' - ABS",
       model: '403',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img33],
       category: "shower",
@@ -492,7 +492,7 @@ export const products = [
       name: "Petra 4'x 4' ABS",
       model: '405',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img34],
       category: "shower",
@@ -505,7 +505,7 @@ export const products = [
       name: "Tricon 3' - ABS",
       model: '410',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img35],
       category: "shower",
@@ -518,7 +518,7 @@ export const products = [
       name: "Altis",
       model: '616',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img36],
       category: "shower",
@@ -531,7 +531,7 @@ export const products = [
       name: "Vignit",
       model: '604',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img37],
       category: "shower",
@@ -544,7 +544,7 @@ export const products = [
       name: "Collar-SS",
       model:'203',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img38],
       category: "shower",
@@ -557,7 +557,7 @@ export const products = [
       name: "Air flow-ABS",
       model:'205',
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img39],
       category: "shower",
@@ -567,9 +567,9 @@ export const products = [
     },
     {
       _id: "aaabn",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img40],
       category: "shower",
@@ -579,9 +579,9 @@ export const products = [
     },
     {
       _id: "aaabo",
-      name: "Men Round Neck Pure Cotton T-shirt",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img41],
       category: "shower",
@@ -591,9 +591,9 @@ export const products = [
     },
     {
       _id: "aaabp",
-      name: "Boy Round Neck Pure Cotton T-shirt",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img42],
       category: "shower",
@@ -603,9 +603,9 @@ export const products = [
     },
     {
       _id: "aaabq",
-      name: "Kid Tapered Slim Fit Trouser",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img43],
       category: "shower",
@@ -615,9 +615,9 @@ export const products = [
     },
     {
       _id: "aaabr",
-      name: "Women Zip-Front Relaxed Fit Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img44],
       category: "shower",
@@ -627,9 +627,9 @@ export const products = [
     },
     {
       _id: "aaabs",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img45],
       category: "accessory",
@@ -639,9 +639,9 @@ export const products = [
     },
     {
       _id: "aaabt",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img46],
       category: "accessory",
@@ -651,9 +651,9 @@ export const products = [
     },
     {
       _id: "aaabu",
-      name: "Kid Tapered Slim Fit Trouser",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img47],
       category: "accessory",
@@ -663,9 +663,9 @@ export const products = [
     },
     {
       _id: "aaabv",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img48],
       category: "accessory",
@@ -675,9 +675,9 @@ export const products = [
     },
     {
       _id: "aaabw",
-      name: "Kid Tapered Slim Fit Trouser",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img49],
       category: "accessory",
@@ -687,9 +687,9 @@ export const products = [
     },
     {
       _id: "aaabx",
-      name: "Kid Tapered Slim Fit Trouser",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img50],
       category: "accessory",
@@ -698,9 +698,9 @@ export const products = [
     },
     {
       _id: "aaaby",
-      name: "Women Zip-Front Relaxed Fit Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img51],
       category: "accessory",
@@ -710,9 +710,9 @@ export const products = [
     },
     {
       _id: "aaabz",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img52],
       category: "accessory",
@@ -722,9 +722,9 @@ export const products = [
     },
     {
       _id: "aabaa",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img53],
       category: "accessory",
@@ -734,9 +734,9 @@ export const products = [
     },
     {
       _id: "aabab",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img53],
       category: "accessory",
@@ -746,9 +746,9 @@ export const products = [
     },
     {
       _id: "aabac",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img54],
       category: "accessory",
@@ -758,9 +758,9 @@ export const products = [
     },
     {
       _id: "aabad",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img55],
       category: "accessory",
@@ -770,9 +770,9 @@ export const products = [
     },
     {
       _id: "aabae",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img56],
       category: "accessory",
@@ -782,9 +782,9 @@ export const products = [
     },
     {
       _id: "aabaf",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: "",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img57],
       category: "accessory",
@@ -794,9 +794,9 @@ export const products = [
     },
     {
       _id: "aabag",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img58],
       category: "accessory",
@@ -806,9 +806,9 @@ export const products = [
     },
     {
       _id: "aabah",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name: " ",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        "",
 
       image: [p_img59],
       category: "accessory",
@@ -818,9 +818,9 @@ export const products = [
     },
     {
       _id: "aabai",
-      name: "Men Slim Fit Relaxed Denim Jacket",
+      name:  "",
       description:
-        "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+        " ",
 
       image: [p_img60],
       category: "accessory",
