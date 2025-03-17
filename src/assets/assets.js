@@ -470,7 +470,7 @@ export const products = [
 
       image: [p_img32],
       category: "shower",
-      subCategory: " ",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
@@ -483,7 +483,7 @@ export const products = [
 
       image: [p_img33],
       category: "shower",
-      subCategory: "",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
@@ -496,7 +496,7 @@ export const products = [
 
       image: [p_img34],
       category: "shower",
-      subCategory: " ",
+      subCategory: " Overhead Shower",
 
       bestseller: false,
     },
@@ -509,7 +509,7 @@ export const products = [
 
       image: [p_img35],
       category: "shower",
-      subCategory: "",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
@@ -522,7 +522,7 @@ export const products = [
 
       image: [p_img36],
       category: "shower",
-      subCategory: " ",
+      subCategory: "Hand Shower",
 
       bestseller: false,
     },
@@ -535,7 +535,7 @@ export const products = [
 
       image: [p_img37],
       category: "shower",
-      subCategory: "",
+      subCategory: "Hand Shower",
 
       bestseller: false,
     },
@@ -548,7 +548,7 @@ export const products = [
 
       image: [p_img38],
       category: "shower",
-      subCategory: "",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
@@ -561,67 +561,72 @@ export const products = [
 
       image: [p_img39],
       category: "shower",
-      subCategory: "Topwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
     {
       _id: "aaabn",
-      name: " ",
+      name: "Altis-ABS ",
+      model: '306',
       description:
         " ",
 
       image: [p_img40],
       category: "shower",
-      subCategory: "Winterwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
     {
       _id: "aaabo",
-      name: " ",
+      name: "Rolex-ABS ",
+      model: '307',
       description:
         " ",
 
       image: [p_img41],
       category: "shower",
-      subCategory: "Topwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
     {
       _id: "aaabp",
-      name: " ",
+      name: " Apple - ABS",
+      model: '308',
       description:
         " ",
 
       image: [p_img42],
       category: "shower",
-      subCategory: "Topwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
     {
       _id: "aaabq",
-      name: " ",
+      name: "Titan-ABS",
+      model: '309',
       description:
         " ",
 
       image: [p_img43],
       category: "shower",
-      subCategory: "Bottomwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
     {
       _id: "aaabr",
-      name: " ",
+      name: "Curve-ss",
+      model: '202',
       description:
         " ",
 
       image: [p_img44],
       category: "shower",
-      subCategory: "Winterwear",
+      subCategory: "Overhead Shower",
 
       bestseller: false,
     },
