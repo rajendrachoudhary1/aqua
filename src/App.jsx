@@ -8,6 +8,7 @@ import ProductDetailPage from "./component/productsection/productdetail/ProductD
 import ProductPage from "./pages/Productpage";
 import Footer from "./component/homesection/footer/Footer";
 import logo from "./assets/background/logo-f.png";
+// import lo from './assets/lolo.jpg'
 import "./App.css";
 
 function App() {

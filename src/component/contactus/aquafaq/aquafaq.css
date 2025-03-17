@@ -60,16 +60,17 @@ span {
         border-radius: 10px;
     }
     .faq h1{
-        font-size: 15px;
+        font-size: 16px;
         margin: 10px auto;
+        padding-bottom: 10px;
     }
     .question{
         margin: 10px auto;
     }
     .ques {
-     font-size: 10px;
+     font-size: 12px;
     }
     .ans{
-        font-size: 10px;
+        font-size: 12px;
     }
 }

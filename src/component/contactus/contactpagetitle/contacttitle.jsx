@@ -35,6 +35,7 @@ const Contacttitle = () => {
           designs, and see the magic. Our customer support team is available at
           your service 24/7.
         </p>
+        <p className="phone">Phone No : 9166748923 </p>
       </div>
       <div className="form-container">
         <form onSubmit={onSubmit}>

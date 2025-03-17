@@ -18,10 +18,10 @@
     background: whitesmoke;
      margin-top: 100px; 
     position: absolute;
-    top: 40%;
+    top: 45%;
     padding: 30px;
     border-radius: 20px;
-    box-shadow: 1px 1px 10px #1e4753 ;
+    box-shadow: 1px 1px 10px #1e475399 ;
 }
 .form-container form input,textarea{
     display: block;
@@ -44,7 +44,7 @@
     text-align: center;
     margin-top: 15px;
     padding: 10px 20px;
-    background: #007bff;
+    background: #526172;
     color: white;
     border: none;
     border-radius: 5px;
@@ -53,10 +53,13 @@
     transition: 0.3s;
 }
 
-
- 
 .form-container button:hover {
-    background: #0056b3;
+    background: #526682;
+}
+.phone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
  
 @media (max-width: 770px) {
@@ -67,7 +70,7 @@
         margin-left: 5%;
         margin-right: 5%;
         padding: 3px;
-        top: 46%;
+        top: 50%;
         border-radius: 5px;
     }
     .contactContainerform h1{

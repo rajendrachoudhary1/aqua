@@ -12,8 +12,8 @@
 
 .subCategory h3 {
   color: rgb(67, 66, 66);
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -22,9 +22,13 @@
 .subCategory ul {
   color: gray;
 }
-
+ 
+.main-div{
+  flex: 1;
+}
 .div {
   display: flex;
+ 
   flex: 1;
   text-align: center;
   align-items: center;
@@ -33,6 +37,41 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.pagination-controls {
+  display: flex;
+ 
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination-button {
+  margin: 0 10px;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #91a4b8;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.pagination-info {
+  align-self: center;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
 @media (max-width: 700px) {
   .rightsidebar {
     display: flex;

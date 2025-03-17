@@ -6,7 +6,7 @@ import './productTitle.css';
 const ProductTitle = () => {
   const { category } = useParams();  
  
-  const backgroundImage = category === 'faucet' ? backgrnimg.back1 : category === 'shower' ? backgrnimg.back2 : category === 'accessory' ? backgrnimg.back2 : null;
+  const backgroundImage = category === 'faucet' ? backgrnimg.back1 : category === 'shower' ? backgrnimg.back2 : category === 'accessory' ? backgrnimg.back3 : null;
 
   return (
     <div className='productTitle-container'>

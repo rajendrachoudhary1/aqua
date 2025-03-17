@@ -62,11 +62,13 @@ import p_img60 from "./all_product/extra/1402.jpg";
  
  
 import back1 from "./background/backgrd.png";
-import back2 from "./background/pmain.png";
+import back2 from "./background/showerbackgrd.jpg";
+import back3 from "./background/accessorybackgrd.jpg";
  
 export const backgrnimg ={
   back1,
-  back2
+  back2,
+  back3
 }
 
 export const products = [
@@ -78,7 +80,7 @@ export const products = [
       "Sleek chrome faucet with cylindrical body, single lever handle, and smooth curved spout for modern bathrooms or kitchens.",
     image: [p_img1],
     category: "faucet",
-    subCategory: "flt",
+    subCategory: "FLT",
     bestseller: true,
   },
   {
@@ -90,7 +92,7 @@ export const products = [
 
     image: [p_img2],
     category: "faucet",
-    subCategory: "scorpius",
+    subCategory: "SCORPIUS",
 
     bestseller: true,
   },
@@ -103,7 +105,7 @@ export const products = [
 
     image: [p_img3],
     category: "faucet",
-    subCategory: "scorpius",
+    subCategory: "SCORPIUS",
 
     bestseller: true,
   },
@@ -116,20 +118,20 @@ export const products = [
 
     image: [p_img4],
     category: "faucet",
-    subCategory: "scorpius",
+    subCategory: "SCORPIUS",
 
     bestseller: true,
   },
   {
     _id: "aaaae",
-    name: "Wall Mixer 3 in 1 with Provision for Both Hand and Overhead Showers ",
+    name: "Wall Mixer 3 in 1 with Provision for Both Hand ",
     model: "SCR-1113",
     description:
       "Sleek wall-mounted bath mixer with dual lever handles and a high-arching spout, combining modern design with practical functionality. Perfect for enhancing contemporary bathrooms.",
 
     image: [p_img5],
     category: "faucet",
-    subCategory: "scorpius",
+    subCategory: "SCORPIUS",
 
     bestseller: true,
   },
@@ -142,7 +144,7 @@ export const products = [
 
     image: [p_img6],
     category: "faucet",
-    subCategory: "canis",
+    subCategory: "CANIS",
 
     bestseller: true,
   },
@@ -155,7 +157,7 @@ export const products = [
 
     image: [p_img7],
     category: "faucet",
-    subCategory: "canis",
+    subCategory: "CANIS",
 
     bestseller: false,
   },
@@ -167,7 +169,7 @@ export const products = [
       "Sleek chrome faucet with high-arc spout, dual cylindrical handles, and polished finish, offering modern elegance and smooth water flow.",
     image: [p_img8],
     category: "faucet",
-    subCategory: "flt",
+    subCategory: "FLT",
 
     bestseller: false,
   },
@@ -180,7 +182,7 @@ export const products = [
 
     image: [p_img9],
     category: "faucet",
-    subCategory: "flt",
+    subCategory: "FLT",
 
     bestseller: false,
   },
@@ -193,7 +195,7 @@ export const products = [
 
     image: [p_img10],
     category: "faucet",
-    subCategory: "flt",
+    subCategory: "FLT",
 
     bestseller: false,
   },
@@ -206,7 +208,7 @@ export const products = [
 
     image: [p_img11],
     category: "faucet",
-    subCategory: "canis",
+    subCategory: "CANIS",
     bestseller: false,
   },
   {
@@ -218,7 +220,7 @@ export const products = [
 
     image: [p_img12],
     category: "faucet",
-    subCategory: "canis",
+    subCategory: "CANIS",
 
     bestseller: false,
   },
@@ -230,7 +232,7 @@ export const products = [
       " Sleek chrome wall-mounted diverter with a cylindrical handle and circular backplate, offering modern elegance and smooth water control",
     image: [p_img13],
     category: "faucet",
-    subCategory: "flt",
+    subCategory: "FLT",
 
     bestseller: false,
   },
@@ -243,7 +245,7 @@ export const products = [
 
     image: [p_img14],
     category: "faucet",
-    subCategory: "canis",
+    subCategory: "CANIS",
 
     bestseller: false,
   },
@@ -256,7 +258,7 @@ export const products = [
 
     image: [p_img15],
     category: "faucet",
-    subCategory: "auriga",
+    subCategory: "AURIGA",
 
     bestseller: false,
   },
@@ -269,7 +271,7 @@ export const products = [
 
     image: [p_img16],
     category: "faucet",
-    subCategory: "auriga",
+    subCategory: "AURIGA",
 
     bestseller: false,
   },
@@ -282,7 +284,7 @@ export const products = [
 
     image: [p_img17],
     category: "faucet",
-    subCategory: "auriga",
+    subCategory: "AURIGA",
 
     bestseller: false,
   },
@@ -294,7 +296,7 @@ export const products = [
 
     image: [p_img18],
     category: "faucet",
-    subCategory: "auriga",
+    subCategory: "AURIGA",
 
     bestseller: false,
   },
@@ -306,8 +308,8 @@ export const products = [
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
     image: [p_img19],
-    category: "Kids",
-    subCategory: "Topwear",
+    category: "faucet",
+    subCategory: "AURIGA",
 
     bestseller: false,
   },
@@ -321,7 +323,7 @@ export const products = [
 
     image: [p_img20],
     category: "faucet",
-    subCategory: "slika",
+    subCategory: "SLIKA",
 
     bestseller: false,
   },
@@ -334,20 +336,20 @@ export const products = [
 
     image: [p_img21],
     category: "faucet",
-    subCategory: "slika",
+    subCategory: "SLIKA",
 
     bestseller: false,
   },
   {
     _id: "aaaav",
-    name: "Wall Mixer Tik-Tik 3 in 1 with Provision for Both Hand and Overhead Showers",
+    name: "Wall Mixer Tik-Tik 3 in 1 with Provision for Both Hand",
     model: "SLK-0114",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
 
     image: [p_img22],
     category: "faucet",
-    subCategory: "slika",
+    subCategory: "SLIKA",
 
     bestseller: false,
   },
@@ -359,7 +361,7 @@ export const products = [
 
     image: [p_img23],
     category: "faucet",
-    subCategory: "jiva",
+    subCategory: "JIVA",
 
     bestseller: false,
   },
@@ -371,7 +373,7 @@ export const products = [
 
     image: [p_img24],
     category: "faucet",
-    subCategory: "jiva",
+    subCategory: "JIVA",
     bestseller: false,
   },
   {
@@ -382,7 +384,7 @@ export const products = [
 
     image: [p_img25],
     category: "faucet",
-    subCategory: "jiva",
+    subCategory: "JIVA",
 
     bestseller: false,
   },
@@ -394,7 +396,7 @@ export const products = [
 
     image: [p_img26],
     category: "faucet",
-    subCategory: "jiva",
+    subCategory: "JIVA",
 
     bestseller: false,
   },
@@ -405,7 +407,7 @@ export const products = [
     description: "",
     image: [p_img27],
     category: "faucet",
-    subCategory: "jiva",
+    subCategory: "JIVA",
 
     bestseller: false,
   },
@@ -417,7 +419,7 @@ export const products = [
         "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
       image: [p_img28],
       category: "faucet",
-      subCategory: "pelican",
+      subCategory: "PELICAN",
 
       bestseller: false,
     },
@@ -430,7 +432,7 @@ export const products = [
 
       image: [p_img29],
       category: "faucet",
-      subCategory: "pelican",
+      subCategory: "PELICAN",
 
       bestseller: false,
     },
@@ -443,7 +445,7 @@ export const products = [
 
       image: [p_img30],
       category: "faucet",
-      subCategory: "pelican",
+      subCategory: "PELICAN",
 
       bestseller: false,
     },
@@ -456,7 +458,7 @@ export const products = [
 
       image: [p_img31],
       category: "faucet",
-      subCategory: "pelican",
+      subCategory: "PELICAN",
 
       bestseller: false,
     },
