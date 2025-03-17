@@ -22,7 +22,7 @@ const Flt = () => {
             <p>FAUCETS</p>
             <div className="underline"></div>
             <div>
-              <Link to="products/faucets">
+              <Link to="products/faucet">
                 <button>Explore Now</button>
               </Link>
             </div>
@@ -37,7 +37,7 @@ const Flt = () => {
             <p>SHOWERS</p>
             <div className="underline"></div>
             <div>
-              <Link to="/Showers">
+              <Link to="products/shower">
                 <button>Explore Now</button>
               </Link>
             </div> 

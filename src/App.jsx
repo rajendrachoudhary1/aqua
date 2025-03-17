@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter as Router, Route, Routes, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Homepage from "./pages/Homepage";
 import Contactuspage from "./pages/Contactuspage";
@@ -8,8 +8,20 @@ import ProductDetailPage from "./component/productsection/productdetail/ProductD
 import ProductPage from "./pages/Productpage";
 import Footer from "./component/homesection/footer/Footer";
 import logo from "./assets/background/logo-f.png";
-// import lo from './assets/lolo.jpg'
 import "./App.css";
+
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   const [sticky, setSticky] = useState(false);
@@ -36,6 +48,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div>
         {/* Navigation Menu */}
         <nav className={sticky ? "dark-nav" : ""}>
@@ -69,13 +82,13 @@ function App() {
 
         {/* Route Definitions */}
         <div className="main-content">
-        <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/products/:category" element={<ProductPage />} />
-          <Route path="/contact" element={<Contactuspage />} />
-          <Route path="/product/:id" element={<ProductDetailPage />} />
-        </Routes>
-      </div>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/products/:category" element={<ProductPage />} />
+            <Route path="/contact" element={<Contactuspage />} />
+            <Route path="/product/:id" element={<ProductDetailPage />} />
+          </Routes>
+        </div>
 
         <Footer />
       </div>
