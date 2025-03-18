@@ -12,7 +12,7 @@ const Contacttitle = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -30,10 +30,11 @@ const Contacttitle = () => {
       <div className="contactContainerform">
         <h1>Contact us</h1>
         <p>
-          Feel free to reach out to our team and make your ideas a reality.
-          Provide us with your most innovative solutions and required software
-          designs, and see the magic. Our customer support team is available at
-          your service 24/7.
+          Turn your vision into reality with Aquabenz! Whether you have
+          innovative ideas for faucet and shower designs or need expert
+          recommendations, our team is here to help. Our 24/7 customer support
+          ensures a seamless experience — because your perfect bathroom deserves
+          the best.
         </p>
         <p className="phone">Phone No : 9166748923 </p>
       </div>
@@ -68,11 +69,19 @@ const Contacttitle = () => {
           </div>
           <div className="usermessage">
             {/* <label htmlFor="">Message</label> */}
-            <textarea name="message" id="" cols="60" rows="5" placeholder="Enter your message..."></textarea>
+            <textarea
+              name="message"
+              id=""
+              cols="60"
+              rows="5"
+              placeholder="Enter your message..."
+            ></textarea>
           </div>
-          <div className="btn"><button>submit</button></div>
+          <div className="btn">
+            <button>submit</button>
+          </div>
         </form>
-        <span>{result}</span> 
+        <span>{result}</span>
       </div>
     </>
   );
