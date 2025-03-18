@@ -42,22 +42,18 @@ import p_img41 from "./all_product/shower/shower10.png";
 import p_img42 from "./all_product/shower/shower11.png";
 import p_img43 from "./all_product/shower/shower12.png";
 import p_img44 from "./all_product/shower/shower13.png";
-import p_img45 from "./all_product/extra/1101.jpg";
-import p_img47 from "./all_product/extra/902.jpg";
-import p_img46 from "./all_product/extra/903.jpg";
-import p_img48 from "./all_product/extra/905.jpg";
-import p_img49 from "./all_product/extra/1001.jpg";
-import p_img50 from "./all_product/extra/1006.jpg";
-import p_img51 from "./all_product/extra/1010.jpg";
-import p_img52 from "./all_product/extra/1016.jpg";
-import p_img53 from "./all_product/extra/1022.jpg";
-import p_img54 from "./all_product/extra/1105.jpg";
-import p_img55 from "./all_product/extra/1201.jpg";
-import p_img56 from "./all_product/extra/1204.jpg";
-import p_img57 from "./all_product/extra/1208.jpg";
-import p_img58 from "./all_product/extra/1209.jpg";
-import p_img59 from "./all_product/extra/1401.jpg";
-import p_img60 from "./all_product/extra/1402.jpg";
+import p_img45 from "./all_product/extra/liquid_soap.jpg";
+import p_img46 from "./all_product/extra/paperholder.jpg";
+import p_img47 from "./all_product/extra/paperholder2.jpg";
+import p_img48 from "./all_product/extra/soap dish.jpg";
+import p_img49 from "./all_product/extra/thumb.jpg";
+import p_img50 from "./all_product/extra/towelring.jpg";
+import p_img51 from "./all_product/extra/tower.jpg";
+import p_img52 from "./all_product/extra/tower2.jpg";
+import p_img53 from "./all_product/extra/robe.jpg";
+import p_img54 from "./all_product/extra/towelroad.jpg";
+import p_img55 from "./all_product/extra/soap2.jpg";
+import p_img56 from "./all_product/extra/thumb2.jpg"; 
 
  
  
@@ -632,7 +628,8 @@ export const products = [
     },
     {
       _id: "aaabs",
-      name: " ",
+      name: "Liquid Soap Dispenser ",
+      model: 'A-1101',
       description:
         " ",
 
@@ -644,92 +641,102 @@ export const products = [
     },
     {
       _id: "aaabt",
-      name: " ",
+      name: "Paper Holder ",
+      model: '1102',
       description:
         " ",
 
       image: [p_img46],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aaabu",
-      name: " ",
+      name: "Paper Holder ",
+      model: 'P-1103',
       description:
         " ",
 
       image: [p_img47],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aaabv",
-      name: " ",
+      name: "Soap Dish ",
+      model: 'A-1104',
       description:
-        "",
+        " ",
 
       image: [p_img48],
       category: "accessory",
-      subCategory: '',
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aaabw",
-      name: " ",
+      name: "Tumbler Holder",
+      model: 'A-1110',
       description:
-        "",
+        " ",
 
       image: [p_img49],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aaabx",
-      name: " ",
+      name: "Towel Rack ",
+      model: 'V-1120',
       description:
-        "",
+        " ",
 
       image: [p_img50],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
+
       bestseller: false,
     },
     {
       _id: "aaaby",
-      name: " ",
+      name: "Towel Ring ",
+      model: 'F-0111',
       description:
-        "",
+        " ",
 
       image: [p_img51],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aaabz",
-      name: " ",
+      name: "Towel Ring",
+      model: 'F-2001',
       description:
-        "",
+        " ",
 
       image: [p_img52],
       category: "accessory",
-      subCategory: " ",
+      subCategory: "",
 
       bestseller: false,
     },
     {
       _id: "aabaa",
-      name: " ",
+      name: "Robe Hook",
+      model: 'H-2201',
+      
       description:
-        "",
+        " ",
 
       image: [p_img53],
       category: "accessory",
@@ -739,21 +746,10 @@ export const products = [
     },
     {
       _id: "aabab",
-      name: " ",
+      name: "Towel Rod ",
+      model: 'G-1121',
       description:
-        "",
-
-      image: [p_img53],
-      category: "accessory",
-      subCategory: " ",
-
-      bestseller: false,
-    },
-    {
-      _id: "aabac",
-      name: " ",
-      description:
-        "",
+        " ",
 
       image: [p_img54],
       category: "accessory",
@@ -762,20 +758,22 @@ export const products = [
       bestseller: false,
     },
     {
-      _id: "aabad",
-      name: " ",
+      _id: "aabac",
+      name: "Soap dish ",
+      model: 'A-1119',
       description:
         "",
 
       image: [p_img55],
       category: "accessory",
-      subCategory: " ",
+      subCategory: '',
 
       bestseller: false,
     },
     {
-      _id: "aabae",
-      name: " ",
+      _id: "aabad",
+      name: " Tumbler Holder",
+      model: 'H-3003',
       description:
         "",
 
@@ -785,53 +783,4 @@ export const products = [
 
       bestseller: false,
     },
-    {
-      _id: "aabaf",
-      name: "",
-      description:
-        "",
-
-      image: [p_img57],
-      category: "accessory",
-      subCategory: " ",
-
-      bestseller: false,
-    },
-    {
-      _id: "aabag",
-      name: " ",
-      description:
-        "",
-
-      image: [p_img58],
-      category: "accessory",
-      subCategory: " ",
-
-      bestseller: false,
-    },
-    {
-      _id: "aabah",
-      name: " ",
-      description:
-        "",
-
-      image: [p_img59],
-      category: "accessory",
-      subCategory: " ",
-
-      bestseller: false,
-    },
-    {
-      _id: "aabai",
-      name:  "",
-      description:
-        " ",
-
-      image: [p_img60],
-      category: "accessory",
-      subCategory: " ",
-
-      bestseller: false,
-    },
-  
-];
+  ]
