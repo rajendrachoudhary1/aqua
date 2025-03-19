@@ -1,100 +1,100 @@
-.flt-main-container{
-    margin-top: 100px;
-    background:  #1e4753;
-    text-align: center; 
-    padding-top: 20px;
-    padding-bottom: 80px;
-    
+.flt-main-container {
+  margin-top: 100px; 
+  background: linear-gradient(to right, #1f4852, #2b7081, #1593b3de),
+    radial-gradient(circle, rgba(0, 0, 0, 0.3) 1px, transparent 1px);
+  background-size: 100% 100%, 10px 10px;
+
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
 }
-.flt-title{
-    text-align: center;
-    font-size: 40px;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    color: #EEE;
-     
+.flt-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  color: #eee;
 }
 .flt-main {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
 }
 
 .flt {
-    position: relative;
-    width: 50%;
-    height: 350px;
-    overflow: hidden;
-    border-radius: 10px;
+  position: relative;
+  width: 50%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .flt img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 .flt-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .flt-info {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    z-index: 2;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 2;
 }
 
 .underline {
-    width: 50px;
-    height: 3px;
-    background: #12a4f3;
-    margin: 5px auto;
+  width: 50px;
+  height: 3px;
+  background: #12a4f3;
+  margin: 5px auto;
 }
 
 .flt-info button {
-    padding: 10px 20px;
-    border: none;
-    background: white;
-    color: #12a4f3;
-    font-weight: bold;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #12a4f3;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .flt-info button:hover {
-    background: #12a4f3;
-    color: white;
+  background: #12a4f3;
+  color: white;
 }
 
 @media (max-width: 768px) {
-    .flt-main {
-        flex-direction: column;
-        align-items: center;
-    }
+  .flt-main {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .flt {
-        width: 90%;
-    }
-    .flt-title h3{
-        font-size: 30px;
-         
-    }
-    .flt-title{
-        margin-bottom: 30px;
-    }
+  .flt {
+    width: 90%;
+  }
+  .flt-title h3 {
+    font-size: 30px;
+  }
+  .flt-title {
+    margin-bottom: 30px;
+  }
 }

@@ -1,0 +1,8 @@
+.privacyContainer{
+    margin-top: 100px;
+    padding: 40px;
+}
+.dot-list {
+    list-style-type: disc; /* डॉट के लिए */
+    padding-left: 20px; /* बाएं साइड स्पेस के लिए */
+  }

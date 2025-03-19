@@ -1,14 +1,22 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { BrowserRouter as Router, Route, Routes, NavLink, useLocation } from "react-router-dom";
+import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink,
+  Link,
+  useLocation,
+} from "react-router-dom";
 import { useState, useEffect } from "react";
 import Homepage from "./pages/Homepage";
 import Contactuspage from "./pages/Contactuspage";
 import ProductDetailPage from "./component/productsection/productdetail/ProductDetailPage";
 import ProductPage from "./pages/Productpage";
-import Footer from "./component/homesection/footer/Footer";
 import logo from "./assets/background/logo-f.png";
 import "./App.css";
+import Privacypage from "./pages/privacypage";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -16,7 +24,7 @@ function ScrollToTop() {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }, [location]);
 
@@ -63,19 +71,29 @@ function App() {
 
           <ul className={toggle ? "ul-display" : ""}>
             <li>
-              <NavLink to="/" onClick={closeMenu}>Home</NavLink>
+              <NavLink to="/" onClick={closeMenu}>
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/products/faucet" onClick={closeMenu}>Faucets</NavLink>
+              <NavLink to="/products/faucet" onClick={closeMenu}>
+                Faucets
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/products/shower" onClick={closeMenu}>Shower</NavLink>
+              <NavLink to="/products/shower" onClick={closeMenu}>
+                Shower
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/products/accessory" onClick={closeMenu}>Accessories</NavLink>
+              <NavLink to="/products/accessory" onClick={closeMenu}>
+                Accessories
+              </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" onClick={closeMenu}>Contact</NavLink>
+              <NavLink to="/contact" onClick={closeMenu}>
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -87,10 +105,54 @@ function App() {
             <Route path="/products/:category" element={<ProductPage />} />
             <Route path="/contact" element={<Contactuspage />} />
             <Route path="/product/:id" element={<ProductDetailPage />} />
+            <Route path="/privacy-policy" element={<Privacypage />} />
           </Routes>
         </div>
 
-        <Footer />
+        <div className="footer">
+          <div className="footer-left">
+            <img src={logo} alt="" />
+            <div className="footer-icon">
+              <div className="icon">
+                <FontAwesomeIcon icon={faInstagram} />
+              </div>
+              <div className="icon">
+                <FontAwesomeIcon icon={faXTwitter} />
+              </div>
+            </div>
+          </div>
+          <div className="footer-middle">
+            <h3>Pages</h3>
+            <div className="underline-footer"></div>
+            <div className="middle">
+              <ul>
+                <li>
+                   <Link to='/'>Home</Link>
+                </li>
+                <li>
+                   <Link to='/contact'>FAQs</Link>
+                </li>
+                <li>
+                  <a href="">Terms & Condition</a>
+                </li>
+                <li>
+                  <Link to='/privacy-policy'>Privacy & Policy</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="footer-right">
+            <h3>Contact</h3>
+            <div className="underline-footer"></div>
+            <div className="footer-right-address">
+              <p>Office No : 9166748923</p>
+            </div>
+          </div>
+        </div>
+        <p className="copy-right">
+          &copy; <span id="year">2024</span> Aquabenz. All rights reserved.
+        </p>
       </div>
     </Router>
   );
