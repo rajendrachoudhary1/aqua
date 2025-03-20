@@ -16,6 +16,9 @@
     letter-spacing: 1px;
     word-spacing: 1px;
 }
+.privacyContainer h4{
+    font-weight: 500;
+}
 @media (max-width : 700px) {
     .privacyContainer{
         margin-top: 50px;

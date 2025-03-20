@@ -82,8 +82,7 @@ const Privacy = () => {
       <h3>Your Rights</h3>
       <p>
         You have the right to access, correct, or delete your personal
-        information. To exercise these rights, please contact us at [insert
-        contact email].
+        information. To exercise these rights, please contact us at [aquabenz.in@gmail.com].
       </p>
 
       <h3>Changes to This Privacy Policy</h3>
@@ -96,10 +95,10 @@ const Privacy = () => {
       <p>
         If you have any questions or concerns about this Privacy Policy, please
         reach out to us at:
-        <ul>
-          <li>Email:</li>
-          <li>Phone No:</li>
-        </ul>
+       
+        <h4> <span>Email:</span> aquabenz.in@gmail.com</h4>  
+        
+       
       </p>
     </div>
   );

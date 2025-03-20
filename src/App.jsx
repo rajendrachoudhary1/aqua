@@ -62,7 +62,7 @@ function App() {
         {/* Navigation Menu */}
         <nav className={sticky ? "dark-nav" : ""}>
           <div className="nav-logo">
-            <img src={logo} alt="Logo" />
+           <Link to='/'><img src={logo} alt="Logo" /></Link> 
           </div>
           <FontAwesomeIcon
             icon={toggle ? faTimes : faBars}
@@ -113,7 +113,7 @@ function App() {
 
         <div className="footer">
           <div className="footer-left">
-            <img src={logo} alt="" />
+           <Link to='/'> <img src={logo} alt="logo" /></Link>
             <div className="footer-icon">
               <div className="icon">
                 <FontAwesomeIcon icon={faInstagram} />
@@ -149,6 +149,7 @@ function App() {
             <div className="underline-footer"></div>
             <div className="footer-right-address">
               <p>Office No : 9166748923</p>
+              <p>Email: aquabenz.in@gmail.com</p>
             </div>
           </div>
         </div>
