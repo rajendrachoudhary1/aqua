@@ -17,6 +17,7 @@ import ProductPage from "./pages/Productpage";
 import logo from "./assets/background/logo-f.png";
 import "./App.css";
 import Privacypage from "./pages/privacypage";
+import Termpage from "./pages/termpage";
 
 function ScrollToTop() {
   const location = useLocation();
@@ -106,6 +107,7 @@ function App() {
             <Route path="/contact" element={<Contactuspage />} />
             <Route path="/product/:id" element={<ProductDetailPage />} />
             <Route path="/privacy-policy" element={<Privacypage />} />
+            <Route path="/term&condition" element={<Termpage />} />
           </Routes>
         </div>
 
@@ -133,7 +135,7 @@ function App() {
                    <Link to='/contact'>FAQs</Link>
                 </li>
                 <li>
-                  <a href="">Terms & Condition</a>
+                  <Link to='/term&condition'>Terms & Condition</Link>
                 </li>
                 <li>
                   <Link to='/privacy-policy'>Privacy & Policy</Link>

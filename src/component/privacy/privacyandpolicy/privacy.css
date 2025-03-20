@@ -1,0 +1,35 @@
+.privacyContainer{
+    margin-top: 80px;
+    padding: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.dot-list {
+    list-style-type: disc;  
+    padding-left: 20px; 
+  }
+.privacyContainer h3{
+    margin-top: 20px;
+    color: rgb(66, 65, 65);
+}
+.privacyContainer p{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+@media (max-width : 700px) {
+    .privacyContainer{
+        margin-top: 50px;
+    }
+    .privacyContainer h3{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .privacyContainer p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .privacyContainer ul li{
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
